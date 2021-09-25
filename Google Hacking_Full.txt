@@ -1,0 +1,907 @@
+ORIENTAÇÃO EM TECNOLOGIA
+Olá VISITANTE. Seja Bem Vindo!!!! Aqui Vamos compartilhar Abertamente Informações Relacionada a Tecnologia & Segurança da Informação. Abordaremos os temas SOB Instalações, Configurações, Programas, Software, Sistema Operacionais, Desenvolvimento de Programas, Sites, Blogs e Aplicações, Banco de Dados, Redes, Hacking & Pentest. Além dos vídeo aulas e artigos grátis, Vendemos também cursos promocionais através da "Nossa Loja Virtual" com certificado Extra-Curricular.
+
+O mecanismo de pesquisa do Google encontrado em www.google.com oferece muitos recursos diferentes incluindo tradução de idiomas e documentos, web, imagem, grupos de notícias, catálogo e pesquisas de notícias e muito mais. Esses recursos oferecem benefícios óbvios, mesmo para os mais internauta não iniciada, mas esses mesmos recursos permitem possibilidades muito mais nefastas para os usuários mais maliciosos da Internet, incluindo hackers, criminosos de computador, identidade ladrões e até terroristas. 
+
+Este artigo descreve as aplicações mais nefastas do Mecanismo de pesquisa do Google, técnicas que foram coletivamente denominadas "hackers do Google ou Google Docker".
+
+Os códigos demonstrado logo abaixo tem o objetivo de mostrar tecnicas que são ultizados pelo google hacking para exploração de vulnerabilidades em determinado sistema. Qualquer técnica demonstrado aqui e que for usado contra sistema cuja não tem autorização para realizar este tipo de testes, é considarado fraudes, ou seja você poderá pagar um preço pelos seus atos, apesar de tudo cada um de nós somos responsáveis pelos nossos atos, seja ele bom ou ruim.
+
+Entrar no site www.google.com e digitar os seguintes comandos citado abaixo.
+
+Estou colocando de exemplo em sites com dominio *.com mas isso serve para um site de outro dominio:
+
+Localizar todos posts de um site ==>>
+site:nomedosite.com
+
+Buscar uma pagina especifica ==>>
+
+site:nomedosite.com intitle:"nome da pagina"
+site:nomedosite.com intitle:"index of"
+
+Diretórios sensíveis ==>>
+
+site:nomedosite.com intitle:"index of" "jwt-auth"
+site:nomedosite.com intitle:"index of" "/concrete/Authentication"
+site:nomedosite.com intitle:"index of" "metadata"
+site:nomedosite.com intitle:"index of" "maven-metadata.xml" "Port 80"
+site:nomedosite.com intitle:"index of" "apache-log-parser" "Port 80"
+site:nomedosite.com intitle:"index of" inurl:wp-json embedurl?
+site:nomedosite.com intitle:"index of" "config.py"
+site:nomedosite.com intext:"index of /" ".composer-auth.json"
+site:nomedosite.com inurl:"/includes/OAuth2" intext:"index of /"
+site:nomedosite.com inurl:"/includes/api/" intext:"index of /"
+site:nomedosite.com inurl:concrete/config/
+site:nomedosite.com intitle:"index of" "*php.swp"
+site:nomedosite.com intitle:"index of" "htdocs.zip"
+site:nomedosite.com intitle:index.of "db.zip"
+site:nomedosite.com intitle:index.of "backwpup"
+site:nomedosite.com intitle:"index of" "/Cloudflare-CPanel-7.0.1"
+site:nomedosite.com intitle:"index of" "ftp.log"
+site:nomedosite.com intitle:"index of" "sms.log"
+site:nomedosite.com -pool intitle:"index of" wget-log -pub
+site:nomedosite.com intitle:"index of" .zshrc~ OR .zshrc OR .zshenv OR .zshenv~ -pool -public
+site:nomedosite.com intitle:"index of" .oracle_jre_usage/
+site:nomedosite.com -pub -pool intitle:"index of" squirrelmail/
+site:nomedosite.com -pub -pool intitle:"index of" vagrantfile -"How to"
+site:nomedosite.com intitle:"index of" api_key OR "api key" OR apiKey -pool
+site:nomedosite.com intitle:"index of" domain.key -public
+site:nomedosite.com key OR key.jar intitle:"index of" webstart
+site:nomedosite.com index of /storage/logs/
+site:nomedosite.com intitle:index.of "chroot.conf"
+site:nomedosite.com intitle:index of "uploads"
+site:nomedosite.com intitle:"index of" "ws_ftp.log"
+site:nomedosite.com intitle:index.of "htaccess.txt"
+site:nomedosite.com intext:"index of" intext:..bak intext:config
+site:nomedosite.com site:* index.of: /android/manifest.xml
+site:nomedosite.com intitle:index.of "system.db"
+site:nomedosite.com intitle:index.of "database.db"
+site:nomedosite.com intitle:"Index of" wp-upload
+site:nomedosite.com site:*/logs/default.htm
+site:nomedosite.com site:* index of: /config
+site:nomedosite.com site:* index of: *.exe
+site:nomedosite.com intitle:"Index of" secret
+site:nomedosite.com intitle:"index of" "/etc/mysql/"
+site:nomedosite.com inurl:/wp-content/uploads/ninja-forms/ intitle:"index of"
+site:nomedosite.com intitle:index.of "admin.db"
+site:nomedosite.com intitle:index.of "admin" filetype:sql
+site:nomedosite.com indexof:backup/web.config
+site:nomedosite.com indexof:backup/mysql site:nomedosite.com indexof:.htaccess
+site:nomedosite.com intitle:index.of./.htaccess
+site:nomedosite.com inurl:/wp-admin/includes/plugin-install.php
+site:nomedosite.com site:ftp.* index of /ftp/backup
+site:nomedosite.com inurl:wp-content intext:backup-db
+site:nomedosite.com inurl:/_vti_txt*
+site:nomedosite.com inurl:/scgi-bin*
+site:nomedosite.com inurl: /upload.php intitle:index of
+site:nomedosite.com inurl:admin/data* intext:index of
+site:nomedosite.com inurl:/database* ext:sql intext:index of -site:github.com
+site:nomedosite.com inurl:/admin/ intitle:index.of
+site:nomedosite.com inurl:/wp/wp-admin/
+site:nomedosite.com intitle:"index of" /config.ini
+site:nomedosite.com site:*/wordpress/wordpress.bak/
+site:nomedosite.com intitle:index.of.?.login
+site:nomedosite.com index of /cache
+site:nomedosite.com intitle:index.of.?.database
+site:nomedosite.com intitle:"index of" /content/admin/
+site:nomedosite.com intitle:"index of" /content/uploads/ -inurl:/wp-content/uploads/
+site:nomedosite.com site:*/wp-contents/ inurl:/wp-contents/
+site:nomedosite.com site:*/wp-includes/ inurl:/wp-includes/
+site:nomedosite.com intitle:index.of.?.mysql
+site:nomedosite.com intitle:"index of" /php4/
+site:nomedosite.com intitle:"index of" mysqli.ini
+site:nomedosite.com intitle:"index of" ssh2.ini
+site:nomedosite.com intitle:index.of./.db
+site:nomedosite.com intitle:index.of.?.bak
+site:nomedosite.com intitle:index.of./.sql
+site:nomedosite.com intitle:"Index of" login.php
+site:nomedosite.com intitle:"Index of" wp-config.php
+site:nomedosite.com intitle:"index of" sql inurl:./db/
+site:nomedosite.com inurl:/sites/default/private
+site:nomedosite.com intitle:"index of" admin
+site:nomedosite.com intitle:"index of" drupal
+site:nomedosite.com intitle:"Index of" inurl:wp-json/oembed
+site:nomedosite.com intitle:"Index of" phpmyadmin
+site:nomedosite.com intitle:"Index of" wp-admin
+site:nomedosite.com intitle:index.of.?.sql
+site:nomedosite.com inurl: /filemanager/dialog.php
+site:nomedosite.com Index of inurl:webalizer
+site:nomedosite.com Index of inurl:phpmyadmin
+site:nomedosite.com Index of inurl:htdocs inurl:xampp
+site:nomedosite.com intitle:"Index of" wp-content
+site:nomedosite.com intitle:"Index of" wp-config
+site:nomedosite.com intitle:"Index of" portal
+site:nomedosite.com intitle:"Index of" public
+site:nomedosite.com intitle:"Index of" phpinfo.php
+site:nomedosite.com Index of inurl:config inurl:production
+site:nomedosite.com Index of / *.ovpn
+site:nomedosite.com Inurl : /list/hdd1
+site:nomedosite.com To Parent Directory AND "dir>" AND "web.config"
+site:nomedosite.com intitle:"index of" intext:"Includes wordpress"
+site:nomedosite.com intitle:"index of" intext:"Includes
+site:nomedosite.com filetype:svn -gitlab -github inurl:"/.svn"
+site:nomedosite.com filetype:git -github.com inurl:"/.git"
+site:nomedosite.com inurl:bc.googleusercontent.com intitle:index of
+site:nomedosite.com intitle:"index of" scada
+site:nomedosite.com /var/cache/registry/
+site:nomedosite.com type:mil inurl:ftp ext:pdf | ps
+site:nomedosite.com allintitle: "index of/admin"
+site:nomedosite.com intitle:"Directory Listing For" "Filename" intext:Tomcat/5.0.28
+site:nomedosite.com intitle: "Index of" intext:log
+site:nomedosite.com intitle:"index of" ".cpanel/caches/config/"
+site:nomedosite.com intitle: "index of" "./" "./bitcoin"
+site:nomedosite.com intitle: "index of" "includes"
+site:nomedosite.com inurl:/uploads/wc-logs/
+site:nomedosite.com intitle:"index of" "db"
+site:nomedosite.com inurl:/files/contao
+site:nomedosite.com inurl:typo3conf/l10n/
+site:nomedosite.com intitle:"index of" ".dockerignore"
+site:nomedosite.com intitle:"index of" "/aws.s3/"
+site:nomedosite.com intitle:"index of" ".pem"
+site:nomedosite.com intitle:"index of" "/bitcoin/"
+site:nomedosite.com description & "size" intitle:"index of" "owncloud"
+site:nomedosite.com Last modified intitle:"index of" "dropbox"
+site:nomedosite.com inurl:"/cgi-bin/CVS/"
+site:nomedosite.com intitle:"index of" inurl:documents backup
+site:nomedosite.com intitle:"index of" "/user" | "/users"
+site:nomedosite.com sasl_passwd | smtpd.conf intitle:"index of"
+site:nomedosite.com inurl:"/.Trash" intitle:"index of" ~
+site:nomedosite.com intitle:"index of" $Recycle.bin
+site:nomedosite.com intitle:"index of" "/Windows/Recent" | "/Windows/History/"
+site:nomedosite.com intitle:"index of" "WindowsCookies"
+site:nomedosite.com intitle:"index of" "Application Data/Microsoft/Credentials"
+site:nomedosite.com allintitle:"Index of /Admin/Common" | allintext:"Parent Directory"
+site:nomedosite.com allinurl:"wp-content/plugins/wordpress-popup/views/admin/"
+site:nomedosite.com allintitle:"Index of /ThinkPHP" | inurl: "/ThinkPHP/"
+site:nomedosite.com intitle:"index of /" ssh
+site:nomedosite.com intitle:"Index of /" inurl:passport
+site:nomedosite.com inurl:"/irj/go/km/docs/"
+site:nomedosite.com inurl:"/irj/go/km/" intext:navigation
+site:nomedosite.com inurl:"/webdynpro/resources/sap.com/"
+site:nomedosite.com inurl:"ai1wm-backups"
+site:nomedosite.com intitle:"Index of /private/"
+site:nomedosite.com index of /etc/certs/
+site:nomedosite.com intitle:"index of /" intext:/backup
+site:nomedosite.com intitle:'index of' "access_log"
+site:nomedosite.com intitle:'index of' "error_log"
+site:nomedosite.com inurl:/wp-content/uploads/wp-backup-plus/
+site:nomedosite.com intitle:"index of /" authorized_keys
+site:nomedosite.com index of /ckeditor
+site:nomedosite.com index of kcfinder/
+site:nomedosite.com intitle:"index of /" intext:/Download/
+site:nomedosite.com intitle:"index of /" intext:/descargas/
+site:nomedosite.com inurl:/proc/tty/ index of
+site:nomedosite.com intitle:index of /.sql.gz intext:/backup/
+site:nomedosite.com intitle:" - Revision" + "subversion version"
+site:nomedosite.com Index of /.svn
+site:nomedosite.com intitle:"docker" intitle:"index of" config
+site:nomedosite.com inurl:filebrowser.wcgp?subDir Communigate
+site:nomedosite.com inurl:"/wp-json/" -wordpress
+site:nomedosite.com intext:"paytm" intitle:"index of"
+site:nomedosite.com intext:my.cnf intitle:index of
+site:nomedosite.com intext:pure-ftpd.conf intitle:index of
+site:nomedosite.com intext:"KRAB-DECRYPT.txt" intitle:"index of"
+site:nomedosite.com inurl:/typo3/typo3conf
+site:nomedosite.com intitle:backup+index of
+site:nomedosite.com index of "database.sql.zip"
+site:nomedosite.com index of "database_log"
+site:nomedosite.com Index of "database.sql"
+site:nomedosite.com intitle:index.of id_rsa -id_rsa.pub
+site:nomedosite.com inurl:/wp-includes/certificates/
+site:nomedosite.com intitle:"index of /bins" arm
+site:nomedosite.com allintext:'HttpFileServer 2.3k'
+site:nomedosite.com inurl:'listprojects.spr'
+site:nomedosite.com inurl:"RootFolder=" Allitems "confidential" | "classified" | "passwords" | username
+site:nomedosite.com inurl:"paypal" intitle:"index of" backup | db | access -github
+site:nomedosite.com inurl:revslider inurl:'/revslider+port'
+site:nomedosite.com Powered by Apache Subversion version
+site:nomedosite.com inurl:"/wp-content/uploads/db-backup"
+site:nomedosite.com index of /node_modules/ -github -stackoverflow
+site:nomedosite.com intitle:"index.of" | inurl:/filemanager/connectors/ intext:uploadtest.html
+site:nomedosite.com intitle:index.of inurl:/websendmail/
+site:nomedosite.com :DIR | intitle:index of inurl://whatsapp/
+site:nomedosite.com intitle:"Index.Of.Applications (Parallels)" -stackoverflow -quora
+site:nomedosite.com intitle:index.of home/000~root~000/
+site:nomedosite.com intitle:"Index Of" intext:".Trash"
+site:nomedosite.com intitle:CV+index of
+site:nomedosite.com inurl:"apps/backend/config/"
+site:nomedosite.com intext:"Powered by ViewVC" | intitle:"ViewVC Repository Listing"
+site:nomedosite.com inurl:/openwebmail/cgi-bin/openwebmail/etc/
+site:nomedosite.com lv_poweredBy
+site:nomedosite.com intext:"/wp-content/uploads/wpsc/"
+site:nomedosite.com inurl:"nfs://www." "index of /"
+site:nomedosite.com intitle:index.of .bashrc
+site:nomedosite.com intext:"index of /userfiles/file/"
+site:nomedosite.com intext:/wp-content/plugins/woocommerce/templates/emails/plain/
+site:nomedosite.com inurl:/wp-content/plugins/seo-pressor/classes/
+site:nomedosite.com inurl:/sym/root/ intitle:index.of
+site:nomedosite.com intext:"Index of /database"
+site:nomedosite.com intext:"Index of /.git"
+site:nomedosite.com intitle:index.of intext:viewvc
+site:nomedosite.com m.zippyshare.com/
+site:nomedosite.com index of /htdocs
+site:nomedosite.com intitle:"Index of /" "joomla_update.php"
+site:nomedosite.com -inurl:htm -inurl:html intitle:"index of" 100CANON
+site:nomedosite.com -inurl:htm -inurl:html intitle:"index of" NIKON
+site:nomedosite.com inurl:"/drive/folders/" site:drive.google.com
+site:nomedosite.com inurl:"folderview?id=" site:drive.google.com
+site:nomedosite.com Index of inurl:"/$Recycle.Bin/"
+site:nomedosite.com powered by h5ai
+site:nomedosite.com site:onedrive.live.com shared by
+site:nomedosite.com Powered by AutoIndex PHP Script ext:php
+site:nomedosite.com inurl:admin inurl:uploads
+site:nomedosite.com inurl:/fckeditor/editor/plugins/ajaxfilemanager/ajaxfilemanager.php
+site:nomedosite.com Hostinger © 2016. All rights reserved inurl:default.php
+site:nomedosite.com inurl:".esy.es/default.php"
+site:nomedosite.com index:"html/js/editor/fckeditor/editor/filemanager/connectors"
+site:nomedosite.com inurl:/FCKeditor/editor/filemanager/upload/
+site:nomedosite.com inurl:pictures intitle:index.of
+site:nomedosite.com inurl:.ssh intitle:index.of authorized_keys
+site:nomedosite.com inurl:trash intitle:index.of
+site:nomedosite.com inurl:/sites/default/files/webform/
+site:nomedosite.com intitle:Index of /__MACOSX ...
+site:nomedosite.com (intext:"index of /.git") ("parent directory")
+site:nomedosite.com inurl:safm.asp ext:asp
+site:nomedosite.com intitle: Index of /awstats/data
+site:nomedosite.com inurl:/server/webapps
+site:nomedosite.com intitle:index.of.mail
+site:nomedosite.com inurl:pipermail intitle:index.of parent
+site:nomedosite.com inurl:"wp-content/uploads/private"
+site:nomedosite.com intitle:index.of inurl:grades site:edu
+site:nomedosite.com intitle:index.of parent inurl:repos
+site:nomedosite.com Desktop parent intitle:index.of
+site:nomedosite.com My Documents "parent" intitle:index.of
+site:nomedosite.com sql "parent" intitle:index.of -injection
+site:nomedosite.com inurl:/aspnet_client/system_web/
+site:nomedosite.com inurl:.listing intitle:index.of
+site:nomedosite.com inurl:.DS_Store intitle:index.of
+site:nomedosite.com mail spool intitle:index.of
+site:nomedosite.com private parent intitle:index.of
+site:nomedosite.com inurl:users intitle:index.of
+site:nomedosite.com inurl:"default.php" intext:"website" "has been successfully installed on the server!"
+site:nomedosite.com intitle:"Index.of" "attachments"
+site:nomedosite.com intitle:"Index of" "WhatsApp Databases"
+site:nomedosite.com inurl:"/cms/app/webroot"
+site:nomedosite.com intitle:"Index of" "WhatsApp Images"
+site:nomedosite.com intitle:"Index of" "DCIM"
+site:nomedosite.com intext:index of sym
+site:nomedosite.com intitle:index.of.pubs
+site:nomedosite.com intitle:"Index of" "wwwroot"
+site:nomedosite.com intitle:"Index Of" intext:"iCloud Photos" OR intext:"My Photo Stream" OR intext:"Camera Roll"
+site:nomedosite.com intitle:"index of" inurl:"no-ip.com"
+site:nomedosite.com inurl:private_files
+site:nomedosite.com intitle:"index of" "onetoc2" "one"
+site:nomedosite.com inurl:wp-admin/ intext:css/
+site:nomedosite.com intitle:"Index of ftp"
+site:nomedosite.com intitle:index.of.dropbox
+site:nomedosite.com intitle:index.of +"Indexed by Apache::Gallery"
+site:nomedosite.com intitle:index.of.accounts
+site:nomedosite.com inurl:/wp-content/wpbackitup_backups
+site:nomedosite.com Config intitle:"Index of" intext:vpn
+site:nomedosite.com jos_users intitle:"Index of"
+site:nomedosite.com inurl:/cgi-bin/.cgi
+site:nomedosite.com allinurl:/hide_my_wp=
+site:nomedosite.com intitle:"index of" intext:".ds_store"
+site:nomedosite.com intitle:"index of" myshare
+site:nomedosite.com inurl:8080 intitle:"Dashboard [Jenkins]"
+site:nomedosite.com intitle:index.of intext:.bash_history
+site:nomedosite.com intext:xampp-dav-unsecure:$apr1$6O9scpDQ$JGw2Tjz0jkrqfKh5hhiqD1
+site:nomedosite.com index of inurl:root intitle:symlink
+site:nomedosite.com index of inurl:sym
+site:nomedosite.com inurl:ckfinder intext:"ckfinder.html" intitle:"Index of /ckfinder"
+site:nomedosite.com inurl:/xampp
+site:nomedosite.com intitle:index.of cisco asa -site:cisco.com
+site:nomedosite.com allintext:"WebServerX Server at"
+site:nomedosite.com intitle:index.of ios -site:cisco.com
+site:nomedosite.com intitle:index.of.config
+site:nomedosite.com allintitle:"FirstClass Login"
+site:nomedosite.com inurl:install.pl intext:"Reading path paramaters" -edu
+site:nomedosite.com Warning: Installation directory exists at "Powered by Zen Cart" -demo
+site:nomedosite.com Welcome to the directory listing of "NetworkActiv-Web-Server"
+site:nomedosite.com log inurl:linklint filetype:txt -"checking"
+site:nomedosite.com intitle:"Folder Listing" "Folder Listing" Name Size Date/Time File Folder
+site:nomedosite.com Directory Listing for "Hosted by Xerver"
+site:nomedosite.com intitle:"Backup-Management (phpMyBackup v.0.4 beta * )" -johnny.ihackstuff
+site:nomedosite.com intitle:"pictures thumbnails" site:pictures.sprintpcs.com
+site:nomedosite.com intitle:index.of WEB-INF
+site:nomedosite.com intitle:index.of /maildir/new/
+site:nomedosite.com filetype:ini Desktop.iniintext:mydocs.dll
+site:nomedosite.com filetype:torrent torrent
+site:nomedosite.com Index of rar r01 nfo Modified 2004
+site:nomedosite.com Web File Browser "Use regular expression"
+site:nomedosite.com intitle:"HFS /" +"HttpFileServer"
+site:nomedosite.com intitle:upload inurl:upload intext:upload -forum -shop -support -w3c
+site:nomedosite.com intitle:"index of" inurl:ftp (pub | incoming)
+site:nomedosite.com allinurl:"/*/_vti_pvt/" | allinurl:"/*/_vti_cnf/"
+site:nomedosite.com intitle:index.of abyss.conf
+site:nomedosite.com Powered by Invision Power File Manager (inurl:login.php) | (intitle:"Browsing directory /" )
+site:nomedosite.com intitle:"Index of /CFIDE/" administrator
+site:nomedosite.com intitle:"index of" "parent directory" "desktop.ini" site:dyndns.org
+site:nomedosite.com intext:"Powered By: TotalIndex" intitle:"TotalIndex"
+site:nomedosite.com intitle:Index.Of / stats merchant cgi-* etc
+site:nomedosite.com inurl:explorer.cfm inurl:(dirpath|This_Directory)
+site:nomedosite.com intitle:"index of" intext:"content.ie5"
+site:nomedosite.com index.of.dcim
+site:nomedosite.com intitle:"index of" -inurl:htm -inurl:html mp3
+site:nomedosite.com intitle:"Directory Listing For" intext:Tomcat -int
+site:nomedosite.com intitle:"webadmin - /*" filetype:php directory filename permission
+site:nomedosite.com intitle:index.of (inurl:fileadmin | intitle:fileadmin)
+site:nomedosite.com intitle:"Index of *" inurl:"my shared folder" size modified
+site:nomedosite.com intitle:index.of /AlbumArt_
+site:nomedosite.com intext:"d.aspx?id" || inurl:"d.aspx?id"
+site:nomedosite.com index of / picasa.ini
+site:nomedosite.com index.of.password
+site:nomedosite.com intitle:"index of /phpmyadmin" modified
+site:nomedosite.com filetype:cfg ks intext:rootpw -sample -test -howto
+site:nomedosite.com intitle:"album permissions" "Users who can modify photos" "EVERYBODY"
+site:nomedosite.com Index Of /network "last modified"
+site:nomedosite.com intitle:intranet inurl:intranet +intext:"human resources"
+site:nomedosite.com inurl:/tmp
+site:nomedosite.com index of inurl:recycler
+site:nomedosite.com inurl:j2ee/examples/jsp
+site:nomedosite.com inurl:ojspdemos
+site:nomedosite.com inurl:/pls/sample/admin_/help/
+site:nomedosite.com index of cgi-bin
+site:nomedosite.com intitle:"Index of" cfide
+site:nomedosite.com intitle:"index.of.personal"
+site:nomedosite.com inurl:backup intitle:index.of inurl:admin
+site:nomedosite.com intitle:"Index of c:\Windows"
+site:nomedosite.com Welcome to phpMyAdmin " Create new database"
+site:nomedosite.com index.of.winnt
+site:nomedosite.com index.of.password
+site:nomedosite.com index.of.secret
+site:nomedosite.com index.of.protected
+site:nomedosite.com index.of.secure
+site:nomedosite.com index.of.private
+site:nomedosite.com Index of /backup
+
+Arquivos Vulneráveis ==>>
+site:nomedosite.com inurl:demo.browse.php intitle:getid3
+site:nomedosite.com allinurl:forcedownload.php?file=
+site:nomedosite.com ionCube Loader Wizard information disclosure
+site:nomedosite.com vBulletin Install Page Detection
+site:nomedosite.com inurl:"simplenews/admin"
+site:nomedosite.com inurl:updown.php | intext:"Powered by PHP Uploader Downloader"
+site:nomedosite.com inurl:guestbook/guestbooklist.asp "Post Date" From
+site:nomedosite.com intitle:"CJ Link Out V1"
+site:nomedosite.com powered by mailgust
+site:nomedosite.com powered by my little forum
+site:nomedosite.com intitle:"Control panel" "Control Panel Login" ArticleLive inurl:admin -demo
+site:nomedosite.com inurl:cartwiz/store/index.asp
+site:nomedosite.com e107.org 2002/2003 inurl:forum_post.php?nt
+site:nomedosite.com maxwebportal inurl:"default" "snitz forums" +"homepage" -intitle:maxwebportal
+site:nomedosite.com Warning: "Cannot execute a blank command in"
+site:nomedosite.com Mail-it Now! intitle:"Contact form" | inurl:contact.php
+site:nomedosite.com Powered by Xcomic
+site:nomedosite.com Powered by FunkBoard
+site:nomedosite.com inurl:nquser.php filetype:php
+site:nomedosite.com Powered by Gravity Board
+site:nomedosite.com Powered by SilverNews
+site:nomedosite.com PHPFreeNews inurl:Admin.php
+site:nomedosite.com Powered by FlexPHPNews inurl:news | inurl:press
+site:nomedosite.com Powered By: Simplicity oF Upload inurl:download.php | inurl:upload.php
+site:nomedosite.com filetype:mdb "standard jet" (password | username | user | pass)
+site:nomedosite.com intitle:"PHPstat" intext:"Browser" intext:"PHPstat setup"
+site:nomedosite.com intitle:"SSHVnc Applet"OR intitle:"SSHTerm Applet"
+site:nomedosite.com inurl:cgi-bin inurl:bigate.cgi
+site:nomedosite.com filetype:pl -intext:"/usr/bin/perl" inurl:webcal (inurl:webcal | inurl:add | inurl:delete | inurl:config)
+site:nomedosite.com filetype:mdb inurl:"news/news"
+site:nomedosite.com inurl:php.exe filetype:exe -example.com
+site:nomedosite.com Powered by Land Down Under 601
+site:nomedosite.com ext:asp inurl:DUgallery intitle:"3.0" -site:dugall
+site:nomedosite.com ext:asp "powered by DUForum" inurl:(messages|details|login|default|register) -site:duware.com
+site:nomedosite.com filetype:cgi inurl:cachemgr.cgi
+site:nomedosite.com powered by YellDL
+site:nomedosite.com File Upload Manager v1.3 "rename to"
+site:nomedosite.com inurl:click.php intext:PHPClickLog
+site:nomedosite.com intitle:"phpremoteview" filetype:php "Name, Size,
+site:nomedosite.com intitle:"ASP FileMan" Resend -site:iisworks.com
+site:nomedosite.com ezBOO "Administrator Panel" -cvs
+site:nomedosite.com intitle:mywebftp "Please enter your password"
+site:nomedosite.com intitle:"Directory Listing" "tree view"
+site:nomedosite.com inurl:changepassword.cgi -cvs
+site:nomedosite.com inurl:" WWWADMIN.PL" intitle:"wwwadmin"
+site:nomedosite.com inurl:cgi.asx?StoreID
+site:nomedosite.com filetype:lit lit (books|ebooks)
+site:nomedosite.com create the Super User "now by clicking here"
+site:nomedosite.com intitle:gallery inurl:setup "Gallery configuration"
+site:nomedosite.com inurl:"nph-proxy.cgi" "Start browsing through this CGI-based proxy"
+site:nomedosite.com inurl:"plog/register.php"
+site:nomedosite.com link:http://www.toastforums.com/
+site:nomedosite.com inurl:robpoll.cgi filetype:cgi
+site:nomedosite.com intitle:"PHP Explorer" ext:php (inurl:phpexplorer.php | inurl:list.php | inurl:browse.php)
+site:nomedosite.com ext:cgi inurl:ubb6_test.cgi
+site:nomedosite.com filetype:wsdl wsdl
+site:nomedosite.com filetype:inc inc intext:setcookie
+site:nomedosite.com filetype:cnf my.cnf -cvs -example
+site:nomedosite.com filetype:php inurl:"viewfile" -"index.php" -"idfil
+site:nomedosite.com intitle:"Index of /" modified php.exe
+site:nomedosite.com TOO MANY
+
+Servidor Vulnerável ==>>
+
+site:nomedosite.com Powered by vBulletin Version 5.5.4
+site:nomedosite.com inurl:"q=user/password"
+site:nomedosite.com inurl:"/user/register" "Powered by Drupal" -CAPTCHA -"Access denied"
+site:nomedosite.com inurl:"index.php?option=com_joomanager"
+site:nomedosite.com inurl:/proc/self/cwd
+site:nomedosite.com dirLIST - PHP Directory Lister "Banned files: php | php3 | php4 | php5 | htaccess | htpasswd | asp | aspx" "index of" ext:php
+site:nomedosite.com allintext:Copyright Smart PHP Poll. All Rights Reserved. -exploit
+site:nomedosite.com allinurl:moadmin.php -google -github
+site:nomedosite.com inurl:/elfinder/elfinder.html+intitle:"elFinder 2.0"
+site:nomedosite.com inurl:robots.txt intext:CHANGELOG.txt intext:disallow ext:txt -site:github.com
+site:nomedosite.com inurl:CHANGELOG.txt intext:drupal intext:"SA-CORE" -intext:7.32 -site:github.com -site:drupal.org
+site:nomedosite.com ext:cgi inurl:cgi-bin intext:#!/bin/bash
+site:nomedosite.com OpenSSL AND "1.0.1 Server at" OR "1.0.1a Server at" OR "1.0.1b Server at" OR "1.0.1c Server at" OR "1.0.1d Server at" OR "1.0.1e Server at" OR "1.0.1f Server at"
+site:nomedosite.com inurl:"/reports/rwservlet" intext:"Oracle"
+site:nomedosite.com inurl:"struts" filetype:action
+site:nomedosite.com inurl:.php? intext:CHARACTER_SETS,COLLATIONS, ?intitle:phpmyadmin
+site:nomedosite.com intext:SQL syntax & inurl:index.php?=id & inurl:gov & inurl:gov
+site:nomedosite.com inurl:/wp-content/w3tc/dbcache/
+site:nomedosite.com intext: intext: intext: intext: intext:
+site:nomedosite.com intitle:awen+intitle:asp.net
+site:nomedosite.com intitle:"-N3t" filetype:php undetectable
+site:nomedosite.com inurl:.php intitle:- BOFF 1.0 intext:[ Sec. Info ]
+site:nomedosite.com filetype:php inurl:tiki-index.php +sirius +1.9.*
+site:nomedosite.com filetype:php inanchor:c99 inurl:c99 intitle:c99shell -seeds -marijuana
+site:nomedosite.com inurl:php intitle:"Cpanel , FTP CraCkeR"
+site:nomedosite.com intitle:#k4raeL - sh3LL
+site:nomedosite.com inurl:view.php?board1_sn=
+site:nomedosite.com intitle:m1n1 1.01
+site:nomedosite.com intitle:Locus7shell intext:"Software:"
+site:nomedosite.com intitle:"[EasyPHP] - Administration"
+site:nomedosite.com MySQL: ON MSSQL: OFF Oracle: OFF MSSQL: OFF PostgreSQL: OFF cURL: ON WGet: ON Fetch: OFF Perl: ON
+site:nomedosite.com intitle:cyber anarchy shell
+site:nomedosite.com inurl:/vb/install/upgrade.php
+site:nomedosite.com inurl:/vb/install/install.php
+site:nomedosite.com CGI-Telnet Unit-x Team Connected to *.com OR "CGI-Telnet Unit-x Team Connected to"
+site:nomedosite.com www.*.com - c99shell OR "www.*.net - c99shell" OR "www.*.org - c99shell"
+site:nomedosite.com r57shell 1.4
+site:nomedosite.com r57shell
+site:nomedosite.com [ phpinfo ] [ php.ini ] [ cpu ] [ mem ] [ users ] [ tmp ] [ delete ]
+site:nomedosite.com safe_mode: * PHP version: * cURL: * MySQL: * MSSQL: * PostgreSQL: * Oracle: *
+site:nomedosite.com inurl:"read.php?datespan="
+site:nomedosite.com intitle:"A Better ASP User Gallery"
+site:nomedosite.com allinurl: In YoUr Dream Lamerz
+site:nomedosite.com intitle:t3al shmeh
+site:nomedosite.com : inurll ', -font => '{Verdana} 8 bold') ->pack ( -side => "top" , -anchor => 'e' ) ;
+site:nomedosite.com allinurl: op=viewslink&sid=
+site:nomedosite.com http://www.google.com/search?q=inurl%3Aindex.php%3Fpagedb%3Drss
+site:nomedosite.com intitle:"Uploader - Uploader v6" -pixloads.com
+site:nomedosite.com intitle:"MvBlog powered"
+site:nomedosite.com intitle:"Horde :: My Portal" -"[Tickets"
+site:nomedosite.com inurl:rpSys.html
+site:nomedosite.com filetype:pl intitle:"Ultraboard Setup"
+site:nomedosite.com Welcome to Administration "General" "Local Domains" "SMTP Authentication" inurl:admin
+site:nomedosite.com XOOPS Custom Installation
+site:nomedosite.com you can now password | "this is a special page only seen by you. your profile visitors" inurl:imchaos
+site:nomedosite.com set up the administrator user inurl:pivot
+site:nomedosite.com html allowed guestbook
+site:nomedosite.com Powered by: vBulletin Version 1.1.5
+site:nomedosite.com inurl:"/NSearch/AdminServlet"
+site:nomedosite.com inurl:servlet/webacc
+site:nomedosite.com There are no Administrators Accounts inurl:admin.php -mysql_fetch_row
+site:nomedosite.com intitle:"Mail Server CMailServer Webmail" "5.2"
+site:nomedosite.com inurl:newsdesk.cgi? inurl:"t="
+site:nomedosite.com (inurl:/shop.cgi/page=) | (inurl:/shop.pl/page=)
+site:nomedosite.com inurl:aol*/_do/rss_popup?blogID=
+site:nomedosite.com natterchat inurl:home.asp -site:natterchat.co.uk
+site:nomedosite.com intitle:phpMyAdmin "Welcome to phpMyAdmin ***" "running on * as root@*"
+site:nomedosite.com intitle:phpMyAdmin "Welcome to phpMyAdmin ***" "running on * as root@*"
+site:nomedosite.com ftp:// "www.eastgame.net"
+site:nomedosite.com intext:"Warning: * am able * write ** configuration file" "includes/configure.php" -Forums
+site:nomedosite.com allinurl:"index.php" "site=sglinks"
+site:nomedosite.com inurl:"index.php?module=ew_filemanager"
+site:nomedosite.com ("Indexed.By"|"Monitored.By") hAcxFtpScan
+site:nomedosite.com filetype:cgi inurl:"fileman.cgi"
+site:nomedosite.com filetype:cgi inurl:"Web_Store.cgi"
+site:nomedosite.com filetype:php inurl:vAuthenticate
+site:nomedosite.com Welcome to the Prestige Web-Based Configurator
+site:nomedosite.com intitle:"Samba Web Administration Tool" intext:"Help Workgroup"
+site:nomedosite.com intitle:"Gateway Configuration Menu"
+site:nomedosite.com inurl:pls/admin_/gateway.htm
+site:nomedosite.com allinurl:install/install.php
+site:nomedosite.com Select a database to view intitle:"filemaker pro"
+site:nomedosite.com allinurl:intranet admin
+site:nomedosite.com Welcome to PHP-Nuke congratulations
+site:nomedosite.com inurl:info.inc.php
+site:nomedosite.com inurl:footer.inc.php
+site:nomedosite.com YaBB SE Dev Team
+site:nomedosite.com intitle:"Gallery in Configuration mode"
+site:nomedosite.com intitle:osCommerce inurl:admin intext:"redistributable under the GNU"intext:"Online Catalog" -demo -site:oscommerce.com
+site:nomedosite.com inurl:ManyServers.htm
+site:nomedosite.com intitle:"Terminal Services Web Connection"
+site:nomedosite.com intitle:"Remote Desktop Web Connection"
+site:nomedosite.com Welcome to Intranet
+site:nomedosite.com inurl:search.php vbulletin
+site:nomedosite.com inurl:shop "Hassan Consulting's Shopping Cart Version 1.18"
+
+Detectar Servidor Web ==>>
+
+site:nomedosite.com Powered by phpBB inurl:"index.php?s" OR inurl:"index.php?style"
+site:nomedosite.com intitle:"index of" "powered by apache " "port 80"
+site:nomedosite.com intitle:"Web Server's Default Page" intext:"hosting using Plesk" -www
+site:nomedosite.com site:ftp.*.com "Web File Manager"
+site:nomedosite.com intitle:"Welcome to JBoss"
+site:nomedosite.com intitle:"Welcome to nginx!" intext:"Welcome to nginx on Debian!" intext:"Thank you for"
+site:nomedosite.com intitle:"index of" "Served by Sun-ONE"
+site:nomedosite.com -pub -pool intitle:"index of" "Served by" "Web Server"
+site:nomedosite.com intitle:"index of" "server at"
+site:nomedosite.com site:*/server-status intext:"Apache server status for"
+site:nomedosite.com inurl:/iisstart.htm intitle:"IIS7"
+site:nomedosite.com inurl:/phpmyadmin/changelog.php -github -gitlab
+site:nomedosite.com inurl:"WebPortal?bankid"
+site:nomedosite.com intitle:"Apache2 Ubuntu Default Page: It works"
+site:nomedosite.com intitle:"IIS Windows Server" -inurl:"IIS Windows Server"
+site:nomedosite.com inurl:/server-status + "Server MPM:"
+site:nomedosite.com inurl:phpinfo.php intext:build 2600
+site:nomedosite.com inurl:OrganizationChart.cc
+site:nomedosite.com intext:"Brought to you by eVetSites"
+site:nomedosite.com intext:"Powered by GetSimple" -site:get-simple.info
+site:nomedosite.com inurl:jsmol.php
+site:nomedosite.com intitle:"WAMPSERVER homepage" "Server Configuration" "Apache Version"
+site:nomedosite.com Powered by BOINC
+site:nomedosite.com Proudly created with Wix.com
+site:nomedosite.com I have been invoked by servletToJSP
+site:nomedosite.com intext:" - 2019 Cott Systems, Inc."
+site:nomedosite.com intitle:Test Page for the Nginx HTTP Server on Fedora
+site:nomedosite.com Powered by vShare
+site:nomedosite.com intext:"Powered by Abyss Web Server"
+site:nomedosite.com intitle: "Welcome to nginx!" + "Thank you for using nginx."
+site:nomedosite.com intitle:livezilla "Server Time"
+site:nomedosite.com intext:"Powered by phpSQLiteCMS" | intitle:"phpSQLiteCMS - A simple & lightweight CMS"
+site:nomedosite.com intitle:"Sucuri WebSite Firewall - Access Denied"
+site:nomedosite.com This server is operated by OpenX.
+site:nomedosite.com Coldbox | contentbox | commandbox "Powered by ContentBox"
+site:nomedosite.com intext:"Powered by Nesta"
+site:nomedosite.com intext:"Powered by Typesetter"
+site:nomedosite.com intext:"Powered by (Quantum | Quantum CMS | CMS)
+site:nomedosite.com intext:"Powered by Sentora" -github.com
+site:nomedosite.com inurl:/_hcms/
+site:nomedosite.com inurl:tests/mocks intext:autoloader
+site:nomedosite.com intitle:HTTP Server Test Page powered by CentOS
+site:nomedosite.com intitle:"apache tomcat/" "Apache Tomcat examples"
+site:nomedosite.com inurl:composer.json codeigniter -site:github.com
+site:nomedosite.com intitle:"apache tomcat/" + "Find additional important configuration information in:"
+site:nomedosite.com RDServer Product information | inurl:"/rdagent.jsp"
+site:nomedosite.com intitle:"Apache2 Debian Default Page: It works"
+site:nomedosite.com inurl:rvsindex.php & /rvsindex.php?/user/login
+site:nomedosite.com intitle:"miniProxy"
+site:nomedosite.com intitle:"Axis Happiness Page" "Examining webapp configuration"
+site:nomedosite.com var miner = new CoinHive intext:document.domain
+site:nomedosite.com inurl:"server-status" "Server Version: Apache/" "Server Built: " "Server uptime:" "Total accesses" "CPU Usage:"
+site:nomedosite.com Application Blocked! "Google bot"
+site:nomedosite.com inurl:readme.md intext:"Laravel"
+site:nomedosite.com inurl:phpmyadmin/themes intext:"pmahomme"
+site:nomedosite.com intext:"Welcome to CodeIgniter!"
+site:nomedosite.com inurl:readme.rst intext:"CodeIgniter"
+site:nomedosite.com intitle:"Index of" "Apache/2.4.7 (Ubuntu) Server"
+site:nomedosite.com intitle:"Index of /" "Proudly Served by Surftown at"
+site:nomedosite.com inurl:/pub/ inurl:_ri_
+site:nomedosite.com inurl:/_catalogs
+site:nomedosite.com ext:svc inurl:wsdl
+site:nomedosite.com inurl:user_guide intext:"CodeIgniter User Guide"
+site:nomedosite.com PHP Credits "Configuration" "PHP Core" ext:php inurl:info
+site:nomedosite.com inurl:/php/info.php
+site:nomedosite.com intitle:"HFS" "Server Uptime" "Server time"
+site:nomedosite.com inurl:phpsysinfo/index.php?disp=dynamic
+site:nomedosite.com intitle:"Apache Status" | intext:"Apache Server Status"
+site:nomedosite.com intext:Apache/2.2.29 (Unix) mod_ssl/2.2.29 | intitle:"Index of /"
+site:nomedosite.com inurl:"/web-console/" intitle:"Administration Console"
+site:nomedosite.com filetype:asmx inurl:(_vti_bin|api|webservice)
+site:nomedosite.com intitle:"BadBlue: the file-sharing web server anyone can use"
+site:nomedosite.com intitle:"Apache Status" "Apache Server Status for"
+site:nomedosite.com intext:"Target Multicast Group" "beacon"
+site:nomedosite.com inurl:wl.exe inurl:?SS1= intext:"Operating system:" -edu -gov -mil
+site:nomedosite.com inurl:nnls_brand.html OR inurl:nnls_nav.html
+site:nomedosite.com (intitle:"502 Proxy Error")|(intitle:"503 Proxy Error") "The proxy server could not handle the request" -topic -mail -4suite -list -site:geocrawler.co
+site:nomedosite.com intitle:"Welcome to 602LAN SUITE *"
+site:nomedosite.com intitle:"Welcome To Your WebSTAR Home Page"
+site:nomedosite.com intitle:"Document title goes here" intitle:"used by web search tools" " example of a simple Home Page"
+site:nomedosite.com intitle:"Welcome to the Advanced Extranet Server, ADVX!"
+site:nomedosite.com intitle:"Welcome to Windows Small Business Server 2003"
+site:nomedosite.com yaws.*.server.at
+site:nomedosite.com intitle:"Index of *" mode links bytes last-changed name
+site:nomedosite.com intitle:"IPC@CHIP Infopage"
+site:nomedosite.com intitle:"Test Page for the Apache HTTP Server on Fedora Core" intext:"Fedora Core Test Page"
+site:nomedosite.com Powered.by.RaidenHTTPD intitle:index.of
+site:nomedosite.com (inurl:81-cobalt | inurl:cgi-bin/.cobalt)
+site:nomedosite.com intitle:"welcome to mono xsp"
+site:nomedosite.com inurl:oraweb -site:oraweb.org
+site:nomedosite.com Netware * Home inurl:nav.html
+site:nomedosite.com XAMPP "inurl:xampp/index"
+site:nomedosite.com allintext:"Powered by LionMax Software" "WWW File Share"
+site:nomedosite.com inurl:2506/jana-admin
+site:nomedosite.com intitle:"Resin Default Home Page"
+site:nomedosite.com intitle:"Welcome To Xitami" -site:xitami.com
+site:nomedosite.com intitle:"Welcome to Your New Home Page!" "by the Debian release"
+site:nomedosite.com About Mac OS Personal Web Sharing
+site:nomedosite.com Switch to table format inurl:table|plain
+site:nomedosite.com intitle:"Object not found!" intext:"Apache/2.0.* (Linux/SuSE)"
+site:nomedosite.com intitle:"Lotus Domino Go Webserver:" "Tuning your webserver" -site:ibm.com
+site:nomedosite.com intitle:"Directory Listing, Index of /*/"
+site:nomedosite.com intitle:"error 404" "From RFC 2068 "
+site:nomedosite.com intitle:"Open WebMail" "Open WebMail version (2.20|2.21|2.30) "
+site:nomedosite.com intitle:"Object not found" netware "apache 1.."
+site:nomedosite.com intitle:AnswerBook2 inurl:ab2/ (inurl:8888 | inurl:8889)
+site:nomedosite.com intext:"404 Object Not Found" Microsoft-IIS/5.0
+site:nomedosite.com powered by "shoutstats" hourly daily
+site:nomedosite.com intitle:"Shoutcast Administrator"
+site:nomedosite.com Novell, Inc WEBACCESS Username Password "Version *.*" Copyright -inurl:help -guides|guide
+site:nomedosite.com AnWeb/1.42h intitle:index.of
+site:nomedosite.com CERN httpd 3.0B (VAX VMS)
+site:nomedosite.com JRun Web Server intitle:index.of
+site:nomedosite.com MaXX/3.1 intitle:index.of
+site:nomedosite.com Microsoft-IIS/* server at intitle:index.of
+site:nomedosite.com Microsoft-IIS/4.0 intitle:index.of
+site:nomedosite.com Red Hat Secure/3.0 server at
+site:nomedosite.com fitweb-wwws * server at intitle:index.of
+site:nomedosite.com Red Hat Secure/2.0
+site:nomedosite.com sEDWebserver * server +at intitle:index.of
+site:nomedosite.com httpd+ssl/kttd * server at intitle:index.of
+site:nomedosite.com OpenSA/1.0.4 intitle:index.of
+site:nomedosite.com OmniHTTPd/2.10 intitle:index.of
+site:nomedosite.com Microsoft-IIS/6.0 intitle:index.of
+site:nomedosite.com Microsoft-IIS/5.0 server at
+site:nomedosite.com intitle:"Page rev */*/*" inurl:"admin
+site:nomedosite.com HTTP_USER_AGENT=Googlebot
+site:nomedosite.com allinurl:".nsconfig" -sample -howto -tutorial
+site:nomedosite.com inurl:domcfg.nsf
+site:nomedosite.com intitle:"300 multiple choices"
+site:nomedosite.com intitle:Snap.Server inurl:Func=
+site:nomedosite.com intitle:"Test Page for Apache"
+site:nomedosite.com allintitle:Netscape FastTrack Server Home Page
+site:nomedosite.com intitle:"Test Page for Apache" "It Worked!"
+site:nomedosite.com seeing this instead intitle:"test page for apache"
+site:nomedosite.com intitle:"Test Page for Apache" "It Worked!" "on this web"
+site:nomedosite.com i_index.shtml Ready
+site:nomedosite.com aboutprinter.shtml
+site:nomedosite.com inurl:tech-support inurl:show Cisco
+site:nomedosite.com intitle:"Apache HTTP Server" intitle:"documentation"
+site:nomedosite.com powered by openbsd +"powered by apache"
+site:nomedosite.com intitle:"Welcome to IIS 4.0"
+site:nomedosite.com intitle:"Welcome to Windows 2000 Internet Services"
+
+Arquivos que contem Usenames ==>>
+
+site:nomedosite.com intitle:"index of" service.grp
+site:nomedosite.com intitle:index.of "users.db"
+site:nomedosite.com username.xlsx ext:xlsx
+site:nomedosite.com inurl:/_layouts/mobile/view.aspx?List=
+site:nomedosite.com authentication failure; logname= ext:log
+site:nomedosite.com inurl:/profile.php?lookup=1
+site:nomedosite.com intext:"root:x:0:0:root:/root:/bin/bash" inurl:*=/etc/passwd
+site:nomedosite.com inurl:"/root/etc/passwd" intext:"home/*:"
+site:nomedosite.com site:extremetracking.com inurl:"login="
+site:nomedosite.com intext:"SteamUserPassphrase=" intext:"SteamAppUser=" -"username" -"user"
+site:nomedosite.com inurl:root.asp?acs=anon
+site:nomedosite.com filetype:conf inurl:proftpd.conf -sample
+site:nomedosite.com filetype:log username putty
+site:nomedosite.com filetype:reg reg +intext:"internet account manager"
+site:nomedosite.com filetype:reg reg HKEY_CURRENT_USER username
+site:nomedosite.com inurl:php inurl:hlstats intext:"Server Username"
+site:nomedosite.com index.of perform.ini
+site:nomedosite.com index of / lck
+site:nomedosite.com inurl:admin filetype:asp inurl:userlist
+site:nomedosite.com inurl:admin inurl:userlist
+site:nomedosite.com intitle:index.of .bash_history
+site:nomedosite.com intitle:index.of .sh_history
+
+Mensagens de erros ==>>
+site:nomedosite.com intext:"sf_app" + "frontend sf_app_base_cache_dir:"
+site:nomedosite.com intitle:"Error log for /LM/"
+site:nomedosite.com inurl:elmah.axd ext:axd
+site:nomedosite.com inurl:"/errors/report.php" intext:"There has been an error processing your request"
+site:nomedosite.com site:*/wp-admin/maint/repair.php intext:"define(WP_ALLOW_REPAIR,true);"
+site:nomedosite.com site:*/wp-includes/Requests/php_errorlog
+site:nomedosite.com site:*/cgi-sys/defaultwebpage.cgi intext:"SORRY!"
+site:nomedosite.com site:*/cgi-sys/suspendedpage.cgi intitle:"Account Suspended"
+site:nomedosite.com site:*/Shibboleth.sso/SAML2/POST
+site:nomedosite.com site:*/404/404.html intitle:"404"
+site:nomedosite.com filetype:php "Notice: Undefined variable: data in" -forum
+site:nomedosite.com site:com inurl:jboss filetype:log -github.com
+site:nomedosite.com inurl:/php-errors.log filetype:log
+site:nomedosite.com dispatch=debugger.
+site:nomedosite.com syd_apply.cfm
+site:nomedosite.com inurl:?wp-commentsrss2.php -git
+site:nomedosite.com CakeRoutingException -site:github.com -site:stackoverflow.com -site:cakephp.org"
+site:nomedosite.com inurl:".php?id=" "You have an error in your SQL syntax"
+site:nomedosite.com intitle:"CGIWrap Error"
+site:nomedosite.com --- WebView Livescope Http Server Error --- -git
+site:nomedosite.com Below is a rendering of the page up to the first error. ext:xml
+site:nomedosite.com inurl:index of driver.php?id=
+site:nomedosite.com intext:"expects parameter 1 to be resource, boolean given" filetype:php
+site:nomedosite.com intitle:"Struts Problem Report" intext:"development mode is enabled."
+site:nomedosite.com inurl:"id=" & intext:"MySQL Error: 1064" & "Session halted."
+site:nomedosite.com intitle:"DSM Terminator [ ABORT ]" | inurl:"./com.sap.portal.dsm.Terminator"
+site:nomedosite.com inurl:/siteminderagent/ | app:"Error 404: java.io.FileNotFoundException: SRVE0190E: File not found: /siteminderagent/"
+site:nomedosite.com inurl:/smpwservices.fcc | "/lm_private/CkeSetter.aspx"
+site:nomedosite.com inurl:/console-selfservice/common/scripts/calendar/ipopeng.htm
+site:nomedosite.com inurl:/nesp/app
+site:nomedosite.com inurl:/SAML2/SOAP/ | inurl:/SAML2/POST
+site:nomedosite.com inurl:/uniquesig0/ or inurl:/uniquesig0/InternalSite/
+site:nomedosite.com inurl:index.php?id= intext:"mysql_fetch_array"
+site:nomedosite.com intitle:Content Server Error IdcService=DOC_INFO
+site:nomedosite.com intitle:"Whoops! There was an error."
+site:nomedosite.com intitle:Error-javax.el.ELException+error+xhtml
+site:nomedosite.com intitle:Error Page pageWrapper.jsp?
+site:nomedosite.com intext:"Unexpected Problem Occurred!" ext:aspx
+site:nomedosite.com [function.getimagesize]: failed to open stream: No such file or directory in
+site:nomedosite.com intext:"Access denied for" intitle:"Shopping cart"
+site:nomedosite.com inurl:advsearch.php?module= & intext:sql syntax
+site:nomedosite.com intext:"Fatal error: Class 'Red_Action' not found in"
+site:nomedosite.com CHARACTER_SETS "COLLATION_CHARACTER_SET_APPLICABILITY"
+site:nomedosite.com inurl:"*.php?*=*.php" intext:"Warning: include" -inurl:.html -site:"php.net" -site:"stackoverflow.com" -inurl:"*forums*"
+site:nomedosite.com inurl:"index.php?m=content+c=rss+catid=10"
+site:nomedosite.com plugins/wp-db-backup/wp-db-backup.php
+site:nomedosite.com allintext:"fs-admin.php"
+site:nomedosite.com intitle:"Apache Tomcat" "Error Report"
+site:nomedosite.com Warning: "failed to open stream: HTTP request failed" "on line"
+site:nomedosite.com Warning: Division by zero in "on line" -forum
+site:nomedosite.com Unable to jump to row "on MySQL result index" "on line"
+site:nomedosite.com Warning: Bad arguments to (join|implode) () in "on line" -help -forum
+site:nomedosite.com Warning: mysql_connect(): Access denied for user: '*@* "on line" -help -forum
+site:nomedosite.com filetype:asp + "[ODBC SQL"
+site:nomedosite.com Warning: "SAFE MODE Restriction in effect." "The script whose uid is" "is not allowed to access owned by uid 0 in" "on line"
+site:nomedosite.com Warning: Supplied argument is not a valid File-Handle resource in
+site:nomedosite.com There seems to have been a problem with the " Please try again by clicking the Refresh button in your web browser."
+site:nomedosite.com intitle:"Default PLESK Page"
+site:nomedosite.com Parse error: parse error, unexpected T_VARIABLE "on line" filetype:php
+site:nomedosite.com [SQL Server Driver][SQL Server]Line 1: Incorrect syntax near -forum -thread -showthread
+site:nomedosite.com intitle:"404 SC_NOT_FOUND"
+site:nomedosite.com intext:"Error Message : Error loading required libraries."
+site:nomedosite.com Warning: mysql_query() "invalid query"
+site:nomedosite.com intitle:Configuration.File inurl:softcart.exe
+site:nomedosite.com The script whose uid is "is not allowed to access"
+site:nomedosite.com databasetype. Code : 80004005. Error Description :
+site:nomedosite.com Warning: pg_connect(): Unable to connect to PostgreSQL server: FATAL
+site:nomedosite.com filetype:log "PHP Parse error" | "PHP Warning" | "PHP Error"
+site:nomedosite.com error found handling the request cocoon filetype:xml
+site:nomedosite.com ASP.NET_SessionId "data source="
+site:nomedosite.com filetype:php inurl:"logging.php" "Discuz" error
+site:nomedosite.com ORA-12541: TNS:no listener intitle:"error occurred"
+site:nomedosite.com Internal Server Error "server at"
+site:nomedosite.com PHP application warnings failing "include_path"
+site:nomedosite.com intext:"Warning: Failed opening" "on line" "include_path"
+site:nomedosite.com intitle:"Error Occurred While Processing Request"
+site:nomedosite.com intitle:"htsearch error" ht://Dig error
+site:nomedosite.com intitle:"Error using Hypernews" "Server Software"
+site:nomedosite.com Invision Power Board Database Error
+site:nomedosite.com intitle:"Execution of this script not permitted"
+site:nomedosite.com intitle:"Error Occurred" "The error occurred in" filetype:cfm
+site:nomedosite.com Fatal error: Call to undefined function -reply -the -next
+site:nomedosite.com filetype:asp "Custom Error Message" Category Source
+site:nomedosite.com warning "error on line" php sablotron
+site:nomedosite.com intitle:"the page cannot be found" inetmgr
+site:nomedosite.com access denied for user "using password"
+site:nomedosite.com intitle:"the page cannot be found" "2004 microsoft corporation"
+site:nomedosite.com inurl:sitebuildercontent
+site:nomedosite.com inurl:sitebuilderfiles
+site:nomedosite.com inurl:sitebuilderpictures
+site:nomedosite.com intitle:"the page cannot be found" "internet information services"
+site:nomedosite.com intitle:"500 Internal Server Error" "server at"
+site:nomedosite.com Supplied argument is not a valid PostgreSQL result
+site:nomedosite.com Can't connect to local intitle:warning
+site:nomedosite.com intitle:"Under construction" "does not currently have"
+site:nomedosite.com PostgreSQL query failed: ERROR: parser: parse error
+site:nomedosite.com Warning: Cannot modify header information - headers already sent
+site:nomedosite.com An unexpected token "END-OF-STATEMENT" was found
+site:nomedosite.com detected an internal error [IBM][CLI Driver][DB2/6000]
+site:nomedosite.com A syntax error has occurred filetype:ihtml
+site:nomedosite.com An illegal character has been found in the statement -"previous message"
+site:nomedosite.com Syntax error in query expression -the
+site:nomedosite.com ORA-00921: unexpected end of SQL command
+site:nomedosite.com Incorrect syntax near -the
+site:nomedosite.com Incorrect syntax near
+site:nomedosite.com Unclosed quotation mark before the character string
+site:nomedosite.com ORA-00933: SQL command not properly ended
+site:nomedosite.com ORA-00936: missing expression
+site:nomedosite.com mySQL error with query
+site:nomedosite.com You have an error in your SQL syntax near
+site:nomedosite.com Supplied argument is not a valid MySQL result resource
+site:nomedosite.com ORA-00921: unexpected end of SQL command
+site:nomedosite.com Chatologica MetaSearch "stack tracking:"
+site:nomedosite.com Error Diagnostic Information intitle:"Error Occurred While"
+site:nomedosite.com supplied argument is not a valid MySQL result resource
+
+Posição firmes ==>>
+site:nomedosite.com intitle:("Index of") AND intext:("c99.txt" OR "c100.txt")
+site:nomedosite.com intitle:("Mini Shell") AND intext:("Upload File")
+site:nomedosite.com intitle:"(SSI Web Shell)" AND intext:"(ls -al)"
+site:nomedosite.com site:bamboo.*.* ext:action build
+site:nomedosite.com inurl:"index of" wso
+site:nomedosite.com intitle:"freedom is real - 1945"
+site:nomedosite.com site:*/wp-admin/install.php intitle:WordPress Installation
+site:nomedosite.com inurl:"index.php?db="
+site:nomedosite.com intitle:Administration - Installation - MantisBT
+site:nomedosite.com inurl:/phpmyadmin/index.php?db=
+site:nomedosite.com inurl:"cs.html?url="
+site:nomedosite.com inurl:"urlstatusgo.html?url=" -intext:"Disallowed by URL filter"
+site:nomedosite.com inurl:wp-login.php?action=register
+site:nomedosite.com inurl:/phpMyAdmin/setup/index.php?phpMyAdmin=
+site:nomedosite.com inurl:"/sidekiq/busy"
+site:nomedosite.com intitle:"InfluxDB - Admin Interface" -github
+site:nomedosite.com intitle:"FCKeditor - Uploaders Tests"
+site:nomedosite.com intitle:"FCKeditor - Connectors Tests"
+site:nomedosite.com intext:"M3R1C4 SHELL BACKDOOR"
+site:nomedosite.com index of /wp-content/uploads/shell.php
+site:nomedosite.com File Manager - Current disk free
+site:nomedosite.com inurl: "Mister Spy" | intext:"Mister Spy & Souheyl Bypass Shell"
+site:nomedosite.com inurl:"/tiny_mce/plugins/ajaxfilemanager/inc/data.php" | inurl:"/tiny_mce/plugins/ajaxfilemanager/ajax_create_folder.php" -github
+site:nomedosite.com intitle:Upload inurl:/cgi-bin/filechucker.cgi
+site:nomedosite.com intitle:"Installing TYPO3 CMS"
+site:nomedosite.com inurl:/install/stringnames.txt
+site:nomedosite.com intitle:"Solr Admin" "Solr Query Syntax"
+site:nomedosite.com ext:jsp intext:"jspspy" intitle:"Jspspy web~shell V1.0"
+site:nomedosite.com Sorting Logs: "Please enter your password" "Powered By" -urlscan -alamy
+site:nomedosite.com intitle:"Authorization" "TF" inurl:"admin.php"
+site:nomedosite.com ext:php intext:"-rwxr-xr-x" site:.in
+site:nomedosite.com intitle:index of intext:@WanaDecryptor@.exe
+site:nomedosite.com intitle:index of intext:wncry
+site:nomedosite.com inurl:"go.cgi?url="
+site:nomedosite.com WHMCS Auto Xploiter
+site:nomedosite.com El Moujahidin Bypass Shell ext:php
+site:nomedosite.com intitle:"Priv8 Mailer Inbox 2015" ext:php
+site:nomedosite.com ( ext:php ) ( inurl:/wp-content/uploads/AAPL/loaders/ )
+site:nomedosite.com inurl:?filesrc=**** ~"Current" ~"asp"
+site:nomedosite.com inurl:/\\filesrc=**** ~"Current" ~":/" ~"upload"
+site:nomedosite.com PHP Mailer "priv8 Mailer" ext:php
+site:nomedosite.com Meg4-Mail ext:php
+site:nomedosite.com PHP eMailer is created by ext:php
+site:nomedosite.com File Manager Version 1.0 "Coded By"
+site:nomedosite.com inurl:"html/js/editor/ckeditor/"
+site:nomedosite.com You have selected the following files for upload (0 Files).
+site:nomedosite.com intitle:"nstview v2.1:: nst.void.ru" | intext:"nsTView v2.1 :: nst.void.ru. Password: Host:"
+site:nomedosite.com filetype:php intext:Your Email: intext:Your Name: intext:Reply-To: intext:mailer
+site:nomedosite.com intitle:"Hamdida X_Shell Backd00r"
+site:nomedosite.com Fenix Final Version v2.0 filetype:php
+site:nomedosite.com intitle:Automatic cPanel Finder/Cracker | 3xp1r3 Cyber Army
+site:nomedosite.com (intitle:"phpshell" OR intitle:"c99shell" OR intitle:"r57shell" OR intitle:"PHP Shell " OR intitle:"phpRemoteView") `rwx` "uname"
+site:nomedosite.com intitle: "phpshell" "Php Safe-Mode Bypass"
+site:nomedosite.com intitle:"Shell I" inurl:revslider inurl:error.php inurl:cmd
+site:nomedosite.com inurl:revslider inurl:temp inurl:update_extract inurl:sym1
+site:nomedosite.com intext:Developed By Black.Hack3r ext:php
+site:nomedosite.com intext:"Sw Bilgi" ext:php
+site:nomedosite.com ext:aspx intitle:aspxspy
+site:nomedosite.com ext:php intitle:"b374k"
+site:nomedosite.com intitle:"WSO " ext:php intext:"server ip" 2015 intext:" [ home ]"
+site:nomedosite.com crime24 stealer ext:txt
+site:nomedosite.com intext:"Please select file to upload:" ext:php
+site:nomedosite.com intext:"Thehacker - Agd_Scorp - BLaSTER - Cr@zy_King - KinSize - JeXToXiC - s3f4 - rx5"
+site:nomedosite.com inurl:sh3llZ/c99/
+site:nomedosite.com intitle:SN0X SHELL: WEEEEEEEEEEEEEEEEED
+site:nomedosite.com ext:asp intext:Smart.Shell 1.0 BY P0Uy@_$3r\/3R -
+site:nomedosite.com intitle:"=[ 1n73ct10n privat shell ]="
+site:nomedosite.com intitle:"WSO 2.4" [ Sec. Info ], [ Files ], [ Console ], [ Sql ], [ Php ], [ Safe mode ], [ String tools ], [ Bruteforce ], [ Network ], [ Self remove ]
+site:nomedosite.com intitle:"uploader by ghost-dz" ext:php
+site:nomedosite.com filetype:php intext:"!C99Shell v. 1.0 beta"
+site:nomedosite.com inurl:1337w0rm.php intitle:1337w0rm
+site:nomedosite.com intitle:C0ded By web.sniper
+site:nomedosite.com Re: inurl:"r00t.php"
+site:nomedosite.com Re: intitle:Priv8 SCR
+site:nomedosite.com inurl:"amfphp/browser/servicebrowser.swf"
+site:nomedosite.com allintext:"fs-admin.php"
+site:nomedosite.com (intitle:"SHOUTcast Administrator")|(intext:"U SHOUTcast D.N.A.S. Status")
+site:nomedosite.com (intitle:"WordPress ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº Setup Configuration File")|(inurl:"setup-config.php?step=")
+site:nomedosite.com index of / ( upload.cfm | upload.asp | upload.php | upload.cgi | upload.jsp | upload.pl )
+site:nomedosite.com Please re-enter your password It must match exactly
+site:nomedosite.com inurl:"tmtrack.dll?"
+site:nomedosite.com inurl:polly/CP
+site:nomedosite.com intitle:"net2ftp" "powered by net2ftp" inurl:ftp OR intext:login OR inurl:login
+site:nomedosite.com intitle:MyShell 1.1.0 build 20010923
+site:nomedosite.com intitle:"YALA: Yet Another LDAP Administrator"
+site:nomedosite.com intitle:"ERROR: The requested URL could not be retrieved" "While trying to retrieve the URL" "The following error was encountered:"
+site:nomedosite.com inurl:"phpOracleAdmin/php" -download -cvs
+site:nomedosite.com filetype:php HAXPLORER "Server Files Browser"
+site:nomedosite.com PHPKonsole PHPShell filetype:php -echo
+site:nomedosite.com inurl:ConnectComputer/precheck.htm | inurl:Remote/logon.aspx
+site:nomedosite.com (inurl:81/cgi-bin/.cobalt/) | (intext:"Welcome to the Cobalt RaQ")
+site:nomedosite.com intitle:"Web Data Administrator - Login"
+site:nomedosite.com adding new user inurl:addnewuser -"there are no domains"
+site:nomedosite.com intitle:"PHP Shell *" "Enable stderr" filetype:php
+site:nomedosite.com Powered by PHPFM filetype:php -username
+site:nomedosite.com intitle:admin intitle:login
+
+
+
+github.com/orientacaoemtecnologia

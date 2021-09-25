@@ -1,0 +1,100 @@
+System Properties 							= sysdm.cpl
+System Information 							= msinfo32
+Gerenciamento do computador 				= compmgmt.msc
+Gerenciamento de serviços 					= services.msc
+Gerenciador de tarefas 						= taskmgr
+Agendador de tarefas 						= taskschd.msc
+Gerenciador de dispositivos 				= devmgmt.msc
+Exibição de versão e build do Windows 		= winver
+Conexões de rede 							= ncpa.cpl
+Painel de controle 							= control panel
+Painel de controle 							= control / control panel
+Opções de pastas 							= control folders
+Ligações de rede 							= ncpa.cpl / control netconnections
+Impressoras e faxes 						= control printers
+Gestor de partições do disco 				= diskpart
+Gestão de computadores 						= compmgmt.msc
+Gestão de discos 							= diskmgmt.msc
+Gestor de dispositivos 						= devmgmt.msc
+Ferramentas administrativas 				= control admintools
+Propriedades de data e hora 				= timedate.cpl
+Power Configuration 						= powercfg.cpl
+Propriedade des visualização 				= control color
+Som e áudio 							 	= mmsys.cpl
+Propriedades de Som e Dispositivos de Áudio = mmsys.cpl
+Propriedades de Teclado						= control keyboard
+Propriedades de Vídeo 						= control desktop
+Propriedades de Vídeo 						= desk.cpl
+Pastas compartilhadas 						= fsmgmt.msc
+Opções regionais e de idioma 				= intl.cpl
+Microsoft Paint 							= mspaint
+Firewall do Windows 						= firewall.cpl
+											
+											
+											
+											
+											
+Propriedades do sistema 					= sysdm.cpl
+Teclado virtual 							= osk
+Som 							 		    = mmsys.cpl
+Serviços 							 		= services.msc
+Restauração do sistema 						= rstrui
+Propriedades do teclado 					= control keyboard
+Propriedades do mouse 						= main.cpl / control mouse
+Personalização do vídeo 					= control desktop/desk.cpl
+Opções de energia 							= powercfg.cpl
+Opções de desempenho do computador 			= systempropertiesperformance
+Lupa 							 			= magnify
+Limpeza de disco 							= cleanmgr
+Informações do sistema						= msinfo32
+Backup e restauração 						= sdclt
+Ass p/ criação de pasta compartilhada		= shrpubw
+Adicionar ou remover programas 				= appwiz.cpl
+Adicionar novos dispositivos 				= devicepairingwizard
+Abrir pasta “documentos” 					= documents
+Abrir pasta “arquivos recentes” 			= recent
+Utilizadores e grupos locais 				= lusrmgr.msc
+Utilitário de configuração do sistema 		= msconfig
+Protecção de base de dados do Windows 		= syskey
+Protecção de ficheiros do Windows (analisar em cada arranque) 		sfc /scanboot
+Protecção de ficheiros do Windows (analisar no próximo arranque)	sfc /scanonce
+Protecção de ficheiros do Windows (analisar) 					 	sfc /scannow
+Protecção de ficheiros do Windows (repor configuração de fábrica)   sfc /revert
+Propriedades de som e dispositivos de áudio = mmsys.cpl
+Propriedades da internet 					= inetcpl.cpl
+Ferramenta de remoção de software malicioso Microsoft Windows	 	mrt
+Constas de utilizadores 					= nusrmgr.cpl
+Configuração de protocolo de Internet (apagar informações de DNS)	ipconfig /flushdns
+Configuração de protocolo de Internet (Todas as conexões)		 	ipconfig /release
+Configuração de protocolo de Internet (ver DNS)					ipconfig /displaydns
+Configuração de protocolo de Internet (ver tudo)				 	ipconfig /all
+Configuração de protocolo de Internet (Modificar DHCP Class ID)	 ipconfig /setclassid
+Configuração do IP 							= ipconfig
+Assistente de transferência de ficheiros do Bluetooth 			 fsquirt
+Sobre o Windows (Ver a versão do Windows) 	 = winver
+System Configuration Utility 				 = msconfig
+System File Checker (Define o tamanho de cache) 				sfc /cachesize x
+System File Checker (Limpa o cache do arquivo) 					sfc /purgecache
+System File Checker (Pesquisa imediatamente todos os APS a cada inicialização)		sfc /scanboot
+System File Checker (Pesquisa imediatamente todos os APS) 		 sfc /scannow
+System File Checker (Restaura a pesquisa à configuração padrão)  sfc /revert
+System File Checker Utility (Purge File Cache)					 sfc /purgecache
+System File Checker Utility (Return to Default Setting)			 sfc /revert
+System File Checker Utility (Scan Immediately) 					 sfc /scannow
+System File Checker Utility (Scan On Every Boot) 				 sfc /scanboot
+System File Checker Utility (Scan Once At Next Boot) 			 sfc /scanonce
+System File Checker Utility (Set Cache Size to size x) 			 sfc  /cachesize x
+Propriedades de Vídeo (com a aba Aparência já selecionada) 		 control color
+Propriedades de Vídeo (Já na Aba Aparência) 					 control color
+Propriedades do Mouse 						 = control mouse
+Propriedades do Mouse 						 = main.cpl
+
+
+
+
+
+
+
+
+
+

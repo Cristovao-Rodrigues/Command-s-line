@@ -1,0 +1,819 @@
+Abre filtro AC3 (se instalado) = ac3filter.cpl
+Acerca do Windows (Ver a versão do Windows) = winver
+Actualizações automáticas = wuaucpl.cpl
+Adicionar ou remover programas = appwiz.cpl
+Administrador da origem de dados de ODBC = odbccp32.cpl
+Ajuda e suporte = msinfo32
+Armazenamento amovível = ntmsmgr.msc
+Assistente de acessibilidade = accwiz
+Assistente de câmara ou scanner = wiaacmgr
+Assistente de configuração de rede = netsetup.cpl
+Assistente de cópia de segurança ou restauro = ntbackup
+Assistente de ligação à Internet = icwconn1 / inetwiz
+Assistente de transferência de definições e de ficheiros = migwiz
+Assistente de transferência de ficheiros do Bluetooth = fsquirt
+Assistente para adicionar hardware = hdwwiz.cpl
+Calculadora= calc
+Centro de segurança do Windows = wscui.cpl
+Certificados = certmgr.msc
+Cliente Telnet = telnet
+Configuração de protocolo de Internet (apagar informações de DNS ) = ipconfig /flushdns
+Configuração de protocolo de Internet (Todas as conexões ) = ipconfig /release
+Configuração de protocolo de Internet (ver DNS ) = ipconfig /displaydns
+Configuração de protocolo de Internet (ver tudo) = ipconfig /all
+Configuração de protocolo de Internet (Modificar DHCP Class ID) = ipconfig /setclassid
+Configuração do IP = ipconfig
+Conjunto de politicas resultante (XP Prof) = rsop.msc
+Constas de utilizadores = nusrmgr.cpl
+Controladores de jogos = joy.cpl
+Definições da segurança local = secpol.msc
+Desfragmentador do disco = dfrg.msc
+Desliga o utilizador do Windows = logoff
+Editor de carácter privado = eudcedit
+Editor de configuração do sistema = sysedit
+Editor de registo = regedit / regedit32
+Encerramento do Windows = shutdown
+Explorador do Windows = explorer
+Ferramenta de diagnóstico do Direct X = dxdiag
+Ferramenta de importação de livro de endereços = wabmig
+Ferramenta de remoção de software malicioso Microsoft Windows = mrt
+Ferramentas administrativas = control admintools
+Firewall do Windows = firewall.cpl
+Fontes = fonts
+Gestão de computadores = compmgmt.msc
+Gestão de discos = diskmgmt.msc
+Gestor de dispositivos = devmgmt.msc
+Gestor de objectos – pacote = packager
+Gestor de partições do disco = diskpart
+Gestor de tarefas do Windows = taskmgr
+Gestor de utilitários = utilman
+Gestor de verificador de controladores = verifier
+HyperTerminal = hypertrm
+Iexpress Wizard = iexpress
+Impressoras e faxes = control printers
+Infra-estrutura de gestão do Windows = wmimgmt.msc
+Iniciar Windows Update = wupdmgr
+Itens a sincronizar = mobsync
+Internet Explorer = iexplore
+Introdução do Windows XP = tourstart
+Jogo de cartas Copas = mshearts
+Jogo de cartas FreeCell = freecell
+Jogo de cartas Spider Solitare = spider
+Jogo Minesweeper = winmine
+Ligação ao ambiente de trabalho remoto = mstsc
+Ligações de rede = ncpa.cpl / control netconnections
+Limpeza do disco = cleanmgr
+Linha de comandos = cmd
+Lista telefónica = rasphone
+Livro de endereços = wab
+Mapa de caracteres = charmap
+Marcador telefónico = dialer
+Microsoft Access (se instalado ) = access.cpl
+Microsoft Chat = winchat
+Microsoft Excel (se instalado ) = excel
+Microsoft Frontpage (se instalado ) = frontpg
+Microsoft Movie Maker = moviemk
+Microsoft Paint = mspaint
+Microsoft Powerpoint (se instalado ) = powerpnt
+Microsoft Word (se instalado ) = winword
+Nero (se instalado) = nero
+Netmeeting = conf
+Notepad = notepad
+Nview Desktop Manager (se instalado) = nvtuicpl.cpl
+Opções de acessibilidade = access.cpl
+Opções de pastas = control folders
+Opções regionais e de idioma = intl.cpl
+Outlook Express = msimn
+Painel de controlo = control
+Painel de controlo Direct X (se instalado) = directx.cpl
+Painel de controlo Java (se instalado) = jpicpl32.cpl
+Paint = pbrush
+Partilhas DDE = ddeshare
+Pasta de impressoras = printers
+Pastas partilhadas = fsmgmt.msc
+Pedidos do operador de armazenamento amovível = ntmsoprq.msc
+Performance Monitor = perfmon
+Performance Monitor = perfmon.msc
+Phone and Modem Options = telephon.cpl
+Pinball para Windows = pinball
+Politica de grupo (XP Prof) = gpedit.msc
+Power Configuration = powercfg.cpl
+Procura rápida (quando ligada) = findfast.cpl
+Propriedade des visualização = control color
+Propriedades da internet = inetcpl.cpl
+Propriedades de data e hora = timedate.cpl
+Propriedades de senhas = password.cpl
+Propriedades de som e dispositivos de áudio = mmsys.cpl
+Propriedades de visualização = control desktop/desk.cpl
+Propriedades do rato = main.cpl / control mouse
+Propriedades do sistema = sysdm.cpl
+Propriedades do teclado = control keyboard
+Protecção de base de dados do Windows = syskey
+Protecção de ficheiros do Windows (analisar em cada arranque) sfc /scanboot
+Protecção de ficheiros do Windows (analisar no próximo arranque) = sfc /scanonce
+Protecção de ficheiros do Windows (analisar) = sfc /scannow
+Protecção de ficheiros do Windows (repor configuração de fábrica) = sfc /revert
+Quicktime (se instalado) = QuickTime.cpl
+Real Player (se instalado) = realplay
+Scanners e câmaras = sticpl.cpl
+Serviço de indexação = ciadv.msc
+Serviços = services.msc
+Serviços componentes = dcomcnfg
+Tarefas agendadas = control schedtasks
+Teclado de ecrã = osk
+Tipos de letra = control fonts
+Tweak UI (se instalado ) = tweakui
+Utilitário de configuração do sistema = msconfig
+Utilitário de rede do cliente de SQL Server = cliconfg
+Utilitário de verificação de ficheiros do sistema = sfc
+Utilitário de verificação do disco = chkdsk
+Utilitário Dr. Watson para o Windows = drwtsn32
+Utilizadores e grupos locais = lusrmgr.msc
+Verificação de assinatura do ficheiro = sigverif
+Visualizador da área de armazenamento = clipbrd
+Visualizador de aplicações de java (se instalado) = javaws
+Visualizador de eventos = eventvwr.msc
+Windows Magnifier = magnify
+Windows Media Player = wmplayer
+Windows Messenger (Executar MSN) = msmsgs
+Windows XP Tour Wizard (Tour Windows) = tourstart
+Wordpad = write
+
+_______________________________________________________________________
+
+
+
+
+ winver: Exibe informaçõe sobre a versão do Windows instalado no computador
+ appwiz.cpl: Abre a janela para adicionar ou remover programas
+ msinfo32: Abre a janela de informações do sistema, onde é possível obter um resumo dos componentes do PC, bem como obter detalhes sobre conflitos
+ wiaacmgr: Abre o assistente de câmera ou scanner
+ migwiz: Abre o assistente de transferência de definições e arquivos
+ fsquirt: Abre o assistente de transferência de arquivo Bluetooth
+ hdwwiz.cpl: Abre o gerenciador de dispositivos do Windows
+ calc: Calculadora
+ wscui.cpl: Abre a central de segurança e manutenção do Windows, onde é possível ver se está tudo bem com o Firewall, software antivírus e mais
+A central de segurança e manutenção do Windows pode ser acessada a partir do comando wscui.cpl no Prompt ou na janela Executar
+A central de segurança e manutenção do Windows pode ser acessada a partir do comando wscui.cpl no Prompt ou na janela Executar (Imagem: Captura de tela / Sergio Oliveira)
+
+ certmgr.msc: Abre a central de visualização e gerenciamento de certificados
+ telnet: Se instalado, abre o cliente Telnet do Windows
+ ipconfig /flushdns: Apaga informações de DNS do protocolo IP
+ ipconfig /release: "Libera" o endereço IP atribuído por DHCP de uma determinada interface
+ ipconfig /displaydns: Ver DNS
+ ipconfig /all: Visualizar todas as informações de rede
+ ipconfig /setclassid: Modifica o Class ID do DHCP
+ ipconfig: Ver informações do protocolo IP
+ rsop.msc: Abre console de gerenciamento do conjunto de políticas resultantes
+ joy.cpl: Abre painel de controladores de jogo
+ secpol.msc: Abre gerenciador de políticas de segurança local
+ logoff: Efetua logoff da conta autenticada no momento no Windows
+ eudcedit: Inicia o editor de caracteres privados
+ regedit: Abre o editor de registro do Windows
+ shutdown: Desliga o sistema e o computador
+ dir: Exibe uma lista de arquivos e subpastas de uma pasta específica
+ explorer: Abre o explorador de arquivos
+ dxdiag: Ferramenta de diagnóstico do DirectX
+ wabmig: Ferramenta de importação de livro de endereços
+ mrt: Abre a ferramenta de remoção de software mal-intencionado do Windows
+ control admintools: Acessa as ferramentas administrativas do Windows
+ firewall.cpl: Abre o painel de firewall do Windows, onde é possível checar as configurações atuais da proteção, bem como definir suas políticas de bloqueio
+ fonts: Fontes
+ compmgmt.msc: Abre o painel de gerenciamento do computador, onde é possível agendar tarefas, definir pasta compartilhadas, entre outras coisas
+ diskmgmt.msc: Abre o gerenciamento de discos do Windows. Aqui é possível particionar os discos rígidos, redimensioná-los etc
+ devmgmt.msc: Também acessa o gerenciador de dispositivos do sistema
+ diskpart: Acessa o gerenciador de partições do disco rígido
+ taskmgr: Abre o gerenciador de tarefas, aquele mesmo que você costuma abrir pressionando CTRL + SHIFT + ESC no teclado
+ utilman: Abre a central de facilidade de acesso do Windows, onde é possível determinar como o sistema se apresentará a pessoas com dificuldades motoras, visuais e/ou auditivas
+ verifier: Gerenciador de verificação de drivers
+ iexpress: Abre o wizard para criação de arquivos executáveis (.exe)
+ control printers: Abre o gerenciador de dispositivos e impressoras, onde é possível adicionar dispositivos USB, Bluetooth e impressoras
+ wmimgmt.msc: Gerenciador de infraestrutura do Windows
+ mobsync: Abre a central de sincronização do sistema
+ mstsc: Abre o console de conexão de área de trabalho remota
+ ncpa.cpl / control netconnections: Abre o gerenciador de conexões de rede
+ cleanmgr: Executa limpeza de disco
+ cmd: Prompt de comando
+ rasphone: Para os que ainda usam, abre a lista telefônica
+ wab: Também algo antiquado, um livro de endereços
+ charmap: Abre o mapa de caracteres
+ dialer: Acessa o discador telefônico
+ access.cpl: Microsoft Access, se estiver instalado
+ excel: Microsof Excel, se estiver instalado
+ frontpg: Microsoft Frontpage, se estiver instalado
+ mspaint: Microsoft Paint, para a garotada
+ powerpnt: Microsoft Powerpoint, se estiver instalado
+ winword: Microsoft Word, se estiver instalado
+ notepad: Bloco de notas
+ control folders: Abre as opções do explorador de arquivos, onde você pode definir se quer exibir pastas e arquivos ocultos, etc.
+ intl.cpl: Abre as configurações de região e idioma do Windows
+ control: Painel de controle
+ pbrush: Alternativa para abrir o Microsoft Paint (antes também conhecido como Paint Brush)
+ fsmgmt.msc: Lista as pastas compartilhadas
+ perfmon: Abre o monitor de desempenho do sistema
+ perfmon.msc: Abre o monitor de desempenho do sistema
+ telephon.cpl: Opções de modem e telefone
+ gpedit.msc: Editor de políticas de grupo local
+ powercfg.cpl: Inicia as opções de energia, onde é possível definir o perfil de consumo energético do computador
+ control color: Abre menu de definição de aparência e cores do Windows
+ inetcpl.cpl: Abre as configurações de internet do sistema
+ timedate.cpl: Propriedades de data e hora
+ mmsys.cpl: Configurações de som do Windows
+ control desktop/desk.cpl: Ajustes de resolução de tela/monitor
+ main.cpl /control mouse: Acessa as propriedades e definições do mouse
+ sysdm.cpl: Abre as propriedades do sistema
+ control keyboard: Propriedades e configurações do teclado
+ syskey: Painel de proteção da base de dados dos usuários Windows
+ sfc /scanboot: Analisa a inicialização do sistema
+ sfc /scanonce: Analisa a próxima inicialização do sistema
+ sfc /scannow: Analisa a inicialização imediatamente
+ sfc /revert: Restabelece as configurações de inicialização de fábrica
+ QuickTime.cpl: Abre as configurações do QuickTime, se ele estiver instalado
+ realplay: Abre as configurações do Real Player, se ele estiver instalado
+ services.msc: Abre o gerenciador de serviços do Windows
+ dcomcnfg: Serviços de componente
+ control schedtasks: Gerenciador de tarefas agendadas do sistema
+ osk: Abre o teclado virtual do Windows
+ control fonts: Fontes
+ tweakui: Abre o Tweak UI, se estiver instalado
+ msconfig: Utilitário de configuração do sistema, onde é possível definir quais programas e serviços são inicializados com o Windows e mais
+ cliconfg: Utilitário de rede para clientes SQL Server
+ sfc: Utilitário de verificação de integridade dos arquivos do sistema
+ chkdsk: Utilitrário de verificação de integridade do disco rígido
+ lusrmgr.msc: Gerenciador de usuários e grupos locais do sistema
+ sigverif: Verificador de assinaturas de arquivos
+ javaws: Visualizador de aplicações Java, se estiver instalado
+ eventvwr.msc: Visualizador de eventos do Windows, uma espécie de log do sistema
+ magnify: Lupa
+ wmplayer: Windows Media Player
+ write: Wordpad
+
+
+_______________________________________________________________________
+
+Lista 221 Comandos Executar do Windows : Run Commands
+Lista de Comandos cmd avançados
+
+Funcionalidade	Run Command / Comando Executar
+Adicionar novo hardware	hdwwiz.cpl
+Adicionar/Remover Programas	appwiz.cpl
+Administrador de Fonte de Dados ODBC	odbccp32.cpl
+Adobe Acrobat (Executar se instalado )	acrobat
+Adobe Designer (Executar se instalado )	acrodist
+Adobe ImageReady (Executar se instalado )	imageready
+Adobe Photoshop (Executar se instalado )	photoshop
+Ajuda e suporte	helpctr
+Ajustar Monitor	perfmon.msc
+Armazenamento Removível	ntmsmgr.msc
+Arquivos compartilhados	fsmgmt.msc
+Assistente de acessibilidade	accwiz
+Assistente de Câmeras e Scanners	sticpl.cpl
+Assistente de controles	access.cpl
+Assistente para Adicionar Hardware	hdwwiz.cpl
+Assistente para Configuração de Rede	netsetup.cpl
+Assistente para Transferência de Arquivos Bluetooth	fsquirt
+Assistente para transferência de arquivos e informações	migwiz
+Atualizações Automáticas	wuaucpl.cpl
+Bate-Papo	winchat
+Bloco de notas	notepad
+Busca rápida	findfast.cpl
+Calculadora	calc
+Catalogo Telefônico	rasphone
+Central de Segurança do Windows	wscui.cpl
+Certificados	certmgr.msc
+Checagem de disco	chkdsk
+Cliente de Telnet	telnet
+Compartilhamentos DDE	ddeshare
+Conectar-se ao Site do Windows Update ou Abrir Windows Update	wupdmgr
+Conexão de Área de Trabalho Remota	mstsc
+Conexões de Rede	control netconnections
+Conexões de Rede	ncpa.cpl
+Configuração de protocolo de Internet (Deletar informações de DNS )	ipconfig /flushdns
+Configuração de protocolo de Internet(Visualizar DNS )	ipconfig /displaydns
+Configuração do IP (Atualiza todas as concessões DHCP e registra novamente nomes DNS)	ipconfig /registerdns
+Configuração do IP (Exibe informações completas da Configuração da Conexão)	ipconfig /all
+Configuração do IP (Exibe todas as identificações de classe DHCP permitidas para o adaptador)	ipconfig /showclassid
+Configuração do IP (Libera o endereço IP para o adaptador especificado)	ipconfig /release
+Configuração do IP (Modifica a identificação de classe DHCP)	ipconfig /setclassid
+Configuração do IP (Renova o endereço IP para o adaptador especificado)	ipconfig /renew
+Configurações Locais de Segurança	secpol.msc
+Configurações regionais	intl.cpl
+Conjunto de Directivas Resultantes (P/ Windows XP Professional)	rsop.msc
+Contas de Usuário	control userpasswords2
+Contas de Usuário	nusrmgr.cpl
+Controladores de Jogo	joy.cpl
+DDE Shares	ddeshare
+Definições locais de segurança	secpol.msc
+Desempenho	perfmon.msc
+Desfragmentador de Discos	dfrg.msc
+Desligar o Windows	shutdown
+Direct X Control Panel (Se instalado )*	directx.cpl
+Direct X Troubleshooter	dxdiag
+Discador	dialer
+Dr. Watson System Troubleshooting Utility	drwtsn32
+Driver Verifier Utility	verifier
+Editor de Caracteres Particulares	eudcedit
+Editor de Configuração do Sistema	sysedit
+Editor de Registros	regedit
+Editor de Registros	regedit32
+Event Viewer	eventvwr.msc
+Fazer Logoff	shutdown -l
+Fazer Logoff do Windows	logoff
+Ferramenta de Diagnóstico do Direct X	dxdiag
+Ferramenta de remoção de software Mal intencionado	mrt
+Ferramenta para Sincronização	mobsync
+Ferramentas administrativas	control admintools
+Findfast	findfast.cpl
+Firefox (Executar se instalado )	firefox
+Firewall do Windows	firewall.cpl
+Fontes	control fonts
+Fonts (Pasta)	fonts
+Gerenciador  do Computador	compmgmt.msc
+Gerenciador de Certeficados	certmgr.msc
+Gerenciador de Discos	diskmgmt.msc
+Gerenciador de Dispositivos	devmgmt.msc ou hdwwiz.cpl
+Gerenciador de Instrumentação do Windows	wmimgmt.msc
+Gerenciador de Objetos	packager
+Gerenciamento de Discos	diskmgmt.msc
+Gerenciamento de dispositivos	devmgmt.msc
+Gerenciamento de partição de Discos	diskpart
+Gerenciamento do computador	compmgmt.msc
+Gestão de Discos	diskmgmt.msc
+Gestor de Objetos – Pacote	packager
+Gestor de Tarefas	taskmgr
+Gestor de Usuários do Wint Server (somente windows2003 server)	usrmgr
+Gestor de Utilitários	utilman
+Gestor de Verificação de controladores	verifier
+Gestor do Computador	compmgmt.msc
+Group Policy Editor (XP Prof)	gpedit.msc
+HyperTerminal	hypertrm
+Iexpress Wizard	iexpress
+Impressoras e Aparelhos de Fax	control printers
+Impressoras e Faxes	control printers
+Indexing Service	ciadv.msc
+Instalador do Active Directory (P/ Windows Server 2003)	dcpromo
+Internet Connection Wizard	icwconn1
+Internet Explorer	iexplore
+Introdução ao Windows XP	tourstart
+Janela das Ligações de Rede	ncpa.cpl
+Janela de comandos DOS	cmd
+Jogo de cartas	mshearts
+Jogo FreeCell	freecell
+Lente de Aumento	magnify
+Limpeza de Disco – comandos executar para limpeza / comando de limpeza cmd	cleanmgr
+Logoff do Windows	logoff
+Mapa de Caracteres	charmap
+Microsoft Access (Executar se instalado )	access.cpl
+Microsoft Excel (Executar se instalado )	excel
+Microsoft Frontpage (Executar se instalado )	frontpg
+Microsoft Movie Maker (Ferramenta para edição de filmes caseiros)	moviemk
+Microsoft Paint (Famoso Paint Brushe )	mspaint
+Microsoft Powerpoint (Executar se instalado )	powerpnt
+Microsoft Word (Executar se instalado )	winword
+Minesweeper Game (Jogo ” Mina “)	winmine
+Nero (Executar se instalado )	nero
+Netmeeting (Sofwtare para comunicação, utilizado geralmente em empresas de pequeno porte )	conf
+Nview Desktop Manager (Executar se instalado )	nvtuicpl.cpl
+Opções de Acessibilidade	verifier
+Opções de Pasta	control folders
+Opções de Telefone e Modem	telephon.cpl
+Opções Regionais e de Idioma	intl.cpl
+Opens AC3 Filter (Executar se instalado )	ac3filter.cpl
+Outlook Express	msimn
+Painel de Controle – comando executar painel de controle	control
+Painel de controle Java (Executar se instalado )	javaws
+Painel de controle Java (Executar se instalado )	jpicpl32.cpl
+Painel de Controlo do Direct X (se estiver instalado)	directx.cpl
+Paint	pbrush
+Password Properties	password.cpl
+Pasta de impressoras	printers
+Pasta Fontes	fonts
+Pasta Impressoras	printers
+Pastas Partilhadas	fsmgmt.msc
+Performance Monitor	perfmon.msc
+Pinball Game	pinball
+Politicas de Grupo	gpedit.msc
+Programas e Recursos	appwiz.cpl
+Propriedades da Internet	inetcpl.cpl
+Propriedades de Data e Hora	timedate.cpl
+Propriedades de Internet	inetcpl.cpl
+Propriedades de Opções de Energia	powercfg.cpl
+Propriedades de senha	password.cpl
+Propriedades de Som e Dispositivos de Áudio	mmsys.cpl
+Propriedades de Teclado	control keyboard
+Propriedades de Vídeo	control desktop
+Propriedades de Vídeo	desk.cpl
+Propriedades de Vídeo (com a aba Aparência já selecionada)	control color
+Propriedades de Vídeo (Já na Aba Aparência)	control color
+Propriedades do Mouse	control mouse
+Propriedades do Mouse	main.cpl
+Propriedades do Sistema	sysdm.cpl
+Propriedades do teclado	control keyboard
+Protegendo Banco de Dados de Contas do Windows XP	syskey
+Quicktime Player (Se instalado executar o Quick Time )	quicktimeplayer
+Real Player (Se instalado Executar o Real player )	realplay
+Reiniciar	shutdown -r
+Resultant Set of Policies	rsop.msc
+Scanners e Câmeras	sticpl.cpl
+Serviço de Indexação	ciadv.msc
+Serviços	services.msc
+Serviços de Componentes	comexp.msc
+Serviços de Componentes	dcomcnfg
+Setup de Conexões de rede	netsetup.cpl
+Sistema de checagem de arquivos	sfc /cachesize=x
+Sistema de checagem de arquivos (Limpa cache de arquivo)	sfc /purgecache
+Sistema de checagem de arquivos (Pesq. todos os APS/cada inicializ.)	sfc /scanboot
+Sistema de checagem de arquivos (Pesquisa todos os APS)	sfc /scannow
+Sistema de checagem de arquivos (Restaura pesquisa/valores padrões)	sfc /revert
+Solicitações do Operador de Armazenamento Removível	ntmsoprq.msc
+Solitário (Jogo)	spider
+Som e áudio	mmsys.cpl
+SQL Client Configuration	cliconfg
+Suporte a Configurações da Internet	inetwiz
+System Configuration Editor	sysedit
+System Configuration Utility	msconfig
+System File Checker (Define o tamanho de cache)	sfc /cachesize=x
+System File Checker (Limpa o cache do arquivo)	sfc /purgecache
+System File Checker (Pesquisa imediatamente todos os APS a cada inicialização)	sfc /scanboot
+System File Checker (Pesquisa imediatamente todos os APS)	sfc /scannow
+System File Checker (Restaura a pesquisa à configuração padrão)	sfc /revert
+System File Checker Utility (Purge File Cache)	sfc /purgecache
+System File Checker Utility (Return to Default Setting)	sfc /revert
+System File Checker Utility (Scan Immediately)	sfc /scannow
+System File Checker Utility (Scan On Every Boot)	sfc /scanboot
+System File Checker Utility (Scan Once At Next Boot)	sfc /scanonce
+System File Checker Utility (Set Cache Size to size x)	sfc /cachesize=x
+System Information	msinfo32
+System Properties	sysdm.cpl
+Tarefas Agendadas	control schedtasks
+Task Manager	taskmgr
+TCP Tester	tcptest
+Teclado virtual	osk
+Telnet Client(Executar Telnet)	telnet
+Tweak UI (Se instalado )	tweakui
+User Account Management (Controlar Contas de usuário )	nusrmgr.cpl
+Usuários e Grupos locais	lusrmgr.msc
+Utilitário de Configuração do Sistema	msconfig
+Utilitário de Rede para Clientes do SQL Server	cliconfg
+Utility Manager	utilman
+Utilizadores Locais e Grupos	lusrmgr.msc
+Verificação de Assinatura de Arquivo	sigverif
+Visualizador da Área de Transferência	clipbrd
+Visualizador de Eventos	eventvwr.msc
+Windows Address Book (Serviço para guardar lista de contatos )	wab
+Windows Address Book Import Utility (Serviço para importar lista de contatos)	wabmig
+Windows Backup Utility (Fazer Backup )	ntbackup
+Windows Explorer (Executar Explorer)	explorer
+Windows Firewall (Executar Firewall)	firewall.cpl
+Windows Magnifier	magnify
+Windows Management Infrastructure	wmimgmt.msc
+Windows Media Player (Executar Media player )	wmplayer
+Windows Messenger (Executar MSN)	msmsgs
+Windows Picture Import Wizard (Precisa estar com a camera instalada )	wiaacmgr
+Windows System Security Tool (ferramenta de segurança do windows )	syskey
+Windows Update Launches (ver updates )	wupdmgr
+Windows Version (Ver a versão do Windows )	winver
+Windows XP Tour Wizard (Tour Windows)	tourstart
+Wordpad	write
+
+
+
+
+_______________________________________________________________________
+
+
+
+Comandos: 
+Sobre o Windows (Ver a versão do Windows) = winver
+Atualizações automáticas = wuaucpl.cpl
+Adicionar ou remover programas = appwiz.cpl
+Administrador da origem de dados de ODBC = odbccp32.cpl
+Assistente de acessibilidade = accwiz
+Assistente de câmara ou scaner = wiaacmgr
+Assistente de configuração de rede = netsetup.cpl
+Assistente de cópia de segurança ou restauro = ntbackup
+Assistente de ligação ? Internet = icwconn1 / inetwiz
+Assistente de transferência de definições e de ficheiros = migwiz
+Assistente de transferência de ficheiros do Bluetooth = fsquirt
+Assistente para adicionar hardware = hdwwiz.cpl
+Calculadora= calc
+Centro de segurança do Windows = wscui.cpl
+Certificados = certmgr.msc
+Cliente Telnet = telnet
+Configuração de protocolo de Internet (apagar informações de DNS ) = ipconfig /flushdns
+Configuração de protocolo de Internet (Todas as conexões ) = ipconfig /release
+Configuração de protocolo de Internet (ver DNS ) = ipconfig /displaydns
+Configuração de protocolo de Internet (ver tudo) = ipconfig /all
+Configuração de protocolo de Internet (Modificar DHCP Class ID) = ipconfig /setclassid
+Configuração do IP = ipconfig
+Conjunto de politicas resultante (XP Prof) = rsop.msc
+Constas de utilizadores = nusrmgr.cpl
+Controladores de jogos = joy.cpl
+Definições da segurança local = secpol.msc
+Desfragmentador do disco = dfrg.msc
+Desliga o utilizador do Windows = logoff
+Editor de caractere privado = eudcedit
+Editor de configuração do sistema = sysedit
+Editor de registo = regedit / regedit32
+Encerramento do Windows = shutdown
+Explorador do Windows = explorer
+Ferramenta de diagnóstico do Direct X = dxdiag
+Ferramenta de importação de livro de endereços = wabmig
+Ferramenta de remoção de software malicioso Microsoft Windows = mrt
+Ferramentas administrativas = control admintools
+Firewall do Windows = firewall.cpl
+Fontes = fonts
+Gestão de computadores = compmgmt.msc
+Gestão de discos = diskmgmt.msc
+Gestor de dispositivos = devmgmt.msc
+Gestor de objetos – pacote = packager
+Gestor de partições do disco = diskpart
+Gestor de tarefas do Windows = taskmgr
+Gestor de utilitários = utilman
+Gestor de verificador de controladores = verifier
+HyperTerminal = hypertrm
+Iexpress Wizard = iexpress
+Impressoras e faxes = control printers
+Infra-estrutura de gestão do Windows = wmimgmt.msc
+Iniciar Windows Update = wupdmgr
+Itens a sincronizar = mobsync
+Internet Explorer = iexplore
+Introdução do Windows XP = tourstart
+Jogo de cartas Copas = mshearts
+Jogo de cartas FreeCell = freecell
+Jogo de cartas Paciência Spider = spider
+Jogo Campo Minado= winmine
+Ligação ao ambiente de trabalho remoto = mstsc
+Ligações de rede = ncpa.cpl / control netconnections
+Limpeza do disco = cleanmgr
+Linha de comandos = cmd
+Lista telefônica = rasphone
+Livro de endereços = wab
+Mapa de caracteres = charmap
+Marcador telefônico = dialer
+Microsoft Access (se instalado ) = msaccess
+Microsoft Chat = winchat
+Microsoft Excel (se instalado ) = excel
+Microsoft Frontpage (se instalado ) = frontpg
+Microsoft Movie Maker = moviemk
+Microsoft Paint = mspaint
+Microsoft Powerpoint (se instalado ) = powerpnt
+Microsoft Word (se instalado ) = winword
+Nero (se instalado) = nero
+Netmeeting = conf
+Notepad = notepad
+Nview Desktop Manager (se instalado) = nvtuicpl.cpl
+Opções de acessibilidade = access.cpl
+Opções de pastas = control folders
+Opções regionais e de idioma = intl.cpl
+Outlook Express = msimn
+Painel de controle = control
+Painel de controle Direct X (se instalado) = directx.cpl
+Painel de controle Java (se instalado) = jpicpl32.cpl
+Paint = pbrush
+Partilhas DDE = ddeshare
+Pasta de impressoras = printers
+Pastas compartilhadas = fsmgmt.msc
+Pedidos do operador de armazenamento removível = ntmsoprq.msc
+Performance Monitor = perfmon
+Performance Monitor = perfmon.msc
+Phone and Modem Options = telephon.cpl
+Pinball para Windows = pinball
+Politica de grupo (XP Prof) = gpedit.msc
+Power Configuration = powercfg.cpl
+Procura rápida (quando ligada) = findfast.cpl
+Propriedade des visualização = control color
+Propriedades da internet = inetcpl.cpl
+Propriedades de data e hora = timedate.cpl
+Propriedades de senhas = password.cpl
+Propriedades de som e dispositivos de áudio = mmsys.cpl
+Propriedades de visualização = control desktop/desk.cpl
+Propriedades do rato = main.cpl / control mouse
+Propriedades do sistema = sysdm.cpl
+Propriedades do teclado = control keyboard
+Protecção de base de dados do Windows = syskey
+Protecção de ficheiros do Windows (analisar em cada arranque) sfc /scanboot
+Protecção de ficheiros do Windows (analisar no próximo arranque) = sfc /scanonce
+Protecção de ficheiros do Windows (analisar) = sfc /scannow
+Protecção de ficheiros do Windows (repor configuração de fábrica) = sfc /revert
+Quicktime (se instalado) = QuickTime.cpl
+Real Player (se instalado) = realplay
+Scanners e câmaras = sticpl.cpl
+Serviço de indexação = ciadv.msc
+Serviços = services.msc
+Serviços componentes = dcomcnfg
+Tarefas agendadas = control schedtasks
+Teclado de ecrã = osk
+Tipos de letra = control fonts
+Tweak UI (se instalado ) = tweakui
+Utilitário de configuração do sistema = msconfig
+Utilitário de rede do cliente de SQL Server = cliconfg
+Utilitário de verificação de ficheiros do sistema = sfc
+Utilitário de verificação do disco = chkdsk
+Utilitário Dr. Watson para o Windows = drwtsn32
+Utilizadores e grupos locais = lusrmgr.msc
+Verificação de assinatura do ficheiro = sigverif
+Visualizador da área de armazenamento = clipbrd
+Visualizador de aplicações de java (se instalado) = javaws
+Visualizador de eventos = eventvwr.msc
+Windows Magnifier = magnify
+Windows Media Player = wmplayer
+Wordpad = write
+
+
+_______________________________________________________________________
+
+
+
+(quarenta e um) comandos. Use e abuse:
+
+1) Painel de controle
+
+control panel
+
+2) Abrir pasta “arquivos recentes”
+
+recent
+
+3) Abrir pasta “documentos”
+
+documents
+
+4) Adicionar novos dispositivos
+
+devicepairingwizard
+
+5) Adicionar ou remover programas
+
+appwiz.cpl
+
+6) Assistente para criação de disco de reparação
+
+recdisc
+
+7) Assistente para criação de pasta compartilhada
+
+shrpubw
+
+8) Backup e restauração
+
+sdclt
+
+9) Conexão de área de trabalho remota
+
+mstsc
+
+10) Conexões de rede
+
+ncpa.cpl
+
+11) Configuração do sistema
+
+msconfig
+
+12) Console de gerenciamento da Microsoft
+
+mmc
+
+13) Controladores de jogo
+
+joy.cpl
+
+14) Editor do registro
+
+regedit
+
+15) Exibição de versão e build do Windows
+
+winver
+
+16) Ferramenta de diagnósticos do DirectX
+
+dxdiag
+
+17) Ferramentas de acessibilidade
+
+utilman
+
+18) Gerenciador de dispositivos
+
+devmgmt.msc
+
+19) Gerenciador de tarefas
+
+taskmgr
+
+20) Gerenciamento de serviços
+
+services.msc
+
+21) Gerenciamento do computador
+
+compmgmt.msc
+
+22) Informações do sistema
+
+msinfo32
+
+23) Limpeza de disco
+
+cleanmgr
+
+24) Lupa
+
+magnify
+
+25) Mapa de caracteres
+
+charmap
+
+26) Modo narrador
+
+narrator
+
+27) Monitor de desempenho
+
+perfmon.msc
+
+28) Opções de desempenho do computador
+
+systempropertiesperformance
+
+29) Opções de energia
+
+powercfg.cpl
+
+30) Personalização do vídeo
+
+desk.cpl
+
+31) Prompt de comando
+
+cmd
+
+32) Propriedades do mouse
+
+control mouse
+
+33) Propriedades do teclado
+
+control keyboard
+
+34) Propriedades do sistema
+
+sysdm.cpl
+
+35) Restauração do sistema
+
+rstrui
+
+36) Serviços
+
+services.msc
+
+37) Som
+
+mmsys.cpl
+
+38) Teclado virtual
+
+osk
+
+39) Visualizador de eventos
+
+eventvwr.msc
+
+40) Windows Explorer
+
+explorer
+
+41) Windows PowerShell
+
+powershell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

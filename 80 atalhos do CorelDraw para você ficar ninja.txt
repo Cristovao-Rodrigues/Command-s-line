@@ -1,0 +1,91 @@
+Atalhos do CorelDraw
+
+Barra de menu
+
+CTRL + N = Novo documento
+CTRL + O = Abrir documento
+CTRL + S = Salvar documento atual
+CTRL + Shift + S = Salvar como
+CTRL + I = Importar arquivo
+CTRL + E = Exportar arquivo
+CTRL + P = Imprimir
+CTRL + Z = Desfazer a última ação
+CTRL + Shift + Z = Refazer
+CTRL + R = Repetir a última ação
+CTRL + X = Recortar
+CTRL + C = Copiar
+CTRL + V = Colar
+CTRL + D =Clonar
+CTRL + Shift + D = Executar etapa e repetir
+CTRL + F3 = Abrir gerenciador de símbolos
+CTRL + F = Localizar objetos
+Alt + Enter = Propriedades do objeto
+F9 = Visualização em tela cheia
+CTRL + F12 = Abrir gerenciador de exibição
+CTRL + G = Agrupar
+CTRL + U = Desagrupar
+CTRL + L = Combinar
+CTRL + K = Separar
+CTRL + Q = Converter em curvas
+CTRL + Shift + Q = Converter contorno em objeto
+Alt + F7 = Posição
+Alt + F8 = Girar
+Alt + F9 = Escala e espelho
+Alt + F10 = Tamanho
+L = Alinhar à esquerda
+R = Alinhar à direita
+T = Alinhar pelo topo
+B = Alinhar pela base
+E = Alinhar centros na horizontal
+C = Alinhar centros na vertical
+P = Alinhar pela página
+Alt + Shift + D = Guias dinâmicas
+Alt + Shift + A = Linhas guia de alinhamento
+CTRL + Home = Trazer para frente da página
+CTRL + End = Enviar para trás da página
+Delete = Excluir
+ALT + F4 = Fechar o software
+Ferramentas
+F5 = Ferramenta mão livre
+F6 = Retângulo
+F7 = Elipse
+F8 = Ferramenta texto
+F10 = Ferramenta forma
+F11 = Preenchimento gradiente
+F12 = Caneta de contorno
+Shift + F11 = Preenchimento uniforme
+Shift + F12 = Cor do contorno
+A = Espiral
+D = Ferramenta papel gráfico
+G = Preenchimento interativo
+H = Ferramenta enquadramento
+I = Ferramenta mídia artística
+M = Preenchimento de malha
+X = Borracha
+Y = Polígono
+Z = Ferramenta zoom
+Shift + S = Ferramenta desenho inteligente
++ (tecla mais) = Duplicar objeto
+
+Texto
+
+CTRL + T = Abrir as propriedades do texto
+CTRL + Shift + M = Texto com espaçamento duplo
+CTRL + Shift + N = Texto com espaçamento simples
+CTRL + Alt + Barra de espaço = Texto com espaçamento duplo ¼
+CTRL + Shift + Barra de espaço = Espaço não separável
+CTRL + Enter = Quebra de coluna
+Alt + _ = Travessão
+CTRL + Shift + – = Hífen
+CTRL + F12 = Revisor ortográfico
+CTRL + Shift + T = Editar texto
+CTRL + F11 = Inserir símbolo de caractere
+Alt + F12 = Alinhar texto à linha de base
+CTRL + F8 = Converter
+Macros
+Alt + Shift + F11 = Macro Manager
+Alt + F11 = Editor de macros
+Alt + Shift + F12 = Editor de VSTA
+CTRL + Shift + R = Gravar macro temporária
+CTRL + Shift + O = Interromper a gravação
+CTRL + Shift + P = Executar macro temporária
